@@ -1,0 +1,38 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.title {
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.answer-list {
+  list-style-type: lower-alpha;
+}
+
+.answer-wrong {
+  color: coral;
+}
+
+.answer-right {
+  color:limegreen;
+}
+
+.fine-print {
+  font-size: small;
+  line-height: 1.25rem;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+.topic-dropdown {
+  font-size: inherit;
+}
