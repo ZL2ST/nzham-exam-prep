@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react"
+import { useState } from "react"
 import QuestionItem from './QuestionItem'
 import Result from './Result'
 import ActionButton from './ActionButton'

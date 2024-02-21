@@ -1,5 +1,4 @@
 const QuestionItem = ({ question, handleSetformData }) => {
-  let img = '';
   return (
     <div>
       <p>{question.serial + '. ' + question.question}</p>

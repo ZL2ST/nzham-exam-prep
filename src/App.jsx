@@ -5,18 +5,17 @@ import Exam from './Exam'
 import TopicList from './TopicList'
 
 import { questionBank } from './nzart.json'
-import _ from 'lodash'
 
 const App = () => { 
   const [splashVisible, setSplashVisible] = useState(true);
   const [examVisible, setExamVisible] = useState(false);
   const [topicListVisible, setTopicListVisible] = useState(false);
 
-  const handleExamButtonClick = (e) => {
+  const handleExamButtonClick = () => {
     setSplashVisible(false);
     setExamVisible(true);
   }
-  const handleTopicListButtonClick = (e) => {
+  const handleTopicListButtonClick = () => {
     setSplashVisible(false);
     setTopicListVisible(true);
   }
@@ -51,7 +50,7 @@ const App = () => {
             the kind permission of NZART. 
           </p>
           <p>
-            The source code of this tool is available on <a href="https://github.com/ZL2ST/nzham-exam-prep" target="_blank">GitHub.</a> Any contributions or bug reports are welcome.
+            The source code of this tool is available on <a href="https://github.com/ZL2ST/nzham-exam-prep" target="_blank" rel="noreferrer">GitHub.</a> Any contributions or bug reports are welcome.
           </p>
           </div>
         </> 

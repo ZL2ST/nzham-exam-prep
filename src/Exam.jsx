@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react"
+import { useState } from "react"
 import QuestionItem from './QuestionItem'
 import Result from './Result'
 import ActionButton from './ActionButton'
@@ -22,7 +22,7 @@ const generateTestBank = (questionBank) => {
   });
 };
 
-const Exam = ({questionBank, handleSplashButtonClick, count}) => {
+const Exam = ({questionBank, handleSplashButtonClick}) => {
   const [resultVisible, setResultVisible] = useState(false);
   const [examVisible, setExamVisible] = useState(true);
   const [formData, setformData] = useState({});

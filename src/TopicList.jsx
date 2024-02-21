@@ -7,7 +7,7 @@ const TopicList = ({ questionBank, handleSplashButtonClick }) => {
   const [examTopicVisible, setExamTopicVisible] = useState(false);
   const [topicListVisible, setTopicListVisible] = useState(true);
 
-  const handleTopicExamButtonClick = (e) => {
+  const handleTopicExamButtonClick = () => {
     setExamTopicVisible(true);
     setTopicListVisible(false);
   }
