@@ -2,6 +2,7 @@ import { PDFViewer } from '@react-pdf/renderer'
 import { Document, Page, StyleSheet } from '@react-pdf/renderer'
 import _ from 'lodash'
 import PDFQuestionItem from './PDFQuestionItem'
+import PDFAnswerPage from './PDFAnswerPage'
 
 const styles = StyleSheet.create({
   page: {
@@ -25,6 +26,7 @@ const styles = StyleSheet.create({
 
 let testBank = [];
 let serial = 0;
+let answerChunks = [];
 const generateTestBank = (questionBank) => {
   testBank = [];
   serial = 0;
@@ -38,24 +40,22 @@ const generateTestBank = (questionBank) => {
       testBank.push(item);
     });
   });
+  answerChunks = _.map(testBank, 'answer').map(num => String.fromCharCode('a'.charCodeAt(0) + num - 1));
+  answerChunks = _.chunk(answerChunks,10);
 };
-
-// Create a component for generating the PDF
-const PDFDocument = () => (
-  <Document>
-    <Page size="A4" style={styles.page} >
-        {testBank.map((question) => (
-          <PDFQuestionItem key={question.qid} question={question} />
-        ))}
-    </Page>
-  </Document>
-);
 
 const GenPDF = ({ questionBank }) => {
   generateTestBank(questionBank);
   return (
   <PDFViewer width="100%" height="100%">
-    <PDFDocument />
+    <Document>
+      <Page size="A4" style={styles.page} >
+          {testBank.map((question) => (
+            <PDFQuestionItem key={question.qid} question={question} />
+          ))}
+      </Page>
+      <PDFAnswerPage answerChunks={answerChunks} />
+    </Document>
   </PDFViewer>
   )
 };
