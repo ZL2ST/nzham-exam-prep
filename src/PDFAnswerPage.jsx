@@ -33,10 +33,12 @@ const styles = StyleSheet.create({
   }
 });
 
-const PDFAnswerPage = ({ answerChunks }) => {
+const PDFAnswerPage = ({ answerChunks, testSecurityCode }) => {
   return (
     <Page size="A4" style={styles.page}>
-      <Text style={{paddingBottom: 20, fontSize: "14px"}}>Examination Marker&apos;s Answer Sheet</Text>
+      <Text style={{paddingBottom: 10, fontSize:12}} render={() => (
+          `NZART Exam Paper Demo       Exam Marker's Answer Sheet      Security Code: ${testSecurityCode}`
+        )} fixed />
       <View style={styles.tbl}>
         {answerChunks.map((row, i) => (
           <View key={i} style={styles.row}>

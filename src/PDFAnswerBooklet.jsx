@@ -35,7 +35,6 @@ const PDFAnswerBooklet = () => {
   const answerGrid3 = _.map(_.range(41,61), i => [i, 'a', 'b', 'c', 'd', ' ']);
   return (
     <View>
-      <Text style={{paddingBottom: 20, fontSize: "14px"}}>Exam Candidate&apos;s Answer Sheet</Text>
       <View style={styles.row}>
         <AnswerGridSection answerGrid={answerGrid1} />
         <AnswerGridSection answerGrid={answerGrid2} />

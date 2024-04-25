@@ -1,5 +1,5 @@
 import { PDFViewer } from '@react-pdf/renderer'
-import { Document, Page, StyleSheet } from '@react-pdf/renderer'
+import { Document, Page, Text, StyleSheet } from '@react-pdf/renderer'
 import _ from 'lodash'
 import PDFQuestionItem from './PDFQuestionItem'
 import PDFAnswerPage from './PDFAnswerPage'
@@ -25,9 +25,13 @@ const styles = StyleSheet.create({
   }
 });
 
+// https://stackoverflow.com/a/50579690/
+const crc32=function(r){for(var a,o=[],c=0;c<256;c++){a=c;for(var f=0;f<8;f++)a=1&a?3988292384^a>>>1:a>>>1;o[c]=a}for(var n=-1,t=0;t<r.length;t++)n=n>>>8^o[255&(n^r.charCodeAt(t))];return(-1^n)>>>0};
+
 let testBank = [];
 let serial = 0;
 let answerChunks = [];
+let testSecurityCode = '';
 const generateTestBank = (questionBank) => {
   testBank = [];
   serial = 0;
@@ -42,6 +46,7 @@ const generateTestBank = (questionBank) => {
     });
   });
   answerChunks = _.map(testBank, 'answer').map(num => String.fromCharCode('a'.charCodeAt(0) + num - 1));
+  testSecurityCode = crc32(JSON.stringify(answerChunks));
   answerChunks = _.chunk(answerChunks,10);
 };
 
@@ -51,12 +56,18 @@ const GenPDF = ({ questionBank }) => {
   <PDFViewer width="100%" height="100%">
     <Document>
       <Page size="A4" style={styles.page} >
+          <Text style={{paddingBottom: 10, fontSize:12}} render={({ pageNumber, totalPages }) => (
+            `NZART Exam Paper Demo       Page ${pageNumber} / ${totalPages - 2}      Security Code: ${testSecurityCode}`
+          )} fixed />
           {testBank.map((question) => (
             <PDFQuestionItem key={question.qid} question={question} />
           ))}
       </Page>
-      <PDFAnswerPage answerChunks={answerChunks} />
+      <PDFAnswerPage answerChunks={answerChunks} testSecurityCode={testSecurityCode} />
       <Page size="A4" style={styles.page} >
+        <Text style={{paddingBottom: 10, fontSize:12}} render={() => (
+          `NZART Exam Paper Demo       Exam Candidate's Answer Sheet      Security Code: ${testSecurityCode}`
+        )} fixed />
         <PDFAnswerBooklet />
       </Page>
     </Document>
