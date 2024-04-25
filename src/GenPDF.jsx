@@ -3,6 +3,7 @@ import { Document, Page, StyleSheet } from '@react-pdf/renderer'
 import _ from 'lodash'
 import PDFQuestionItem from './PDFQuestionItem'
 import PDFAnswerPage from './PDFAnswerPage'
+import PDFAnswerBooklet from './PDFAnswerBooklet'
 
 const styles = StyleSheet.create({
   page: {
@@ -55,6 +56,9 @@ const GenPDF = ({ questionBank }) => {
           ))}
       </Page>
       <PDFAnswerPage answerChunks={answerChunks} />
+      <Page size="A4" style={styles.page} >
+        <PDFAnswerBooklet />
+      </Page>
     </Document>
   </PDFViewer>
   )
