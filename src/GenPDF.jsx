@@ -1,4 +1,4 @@
-import { PDFViewer } from '@react-pdf/renderer'
+import { PDFViewer, View } from '@react-pdf/renderer'
 import { Document, Page, Text, StyleSheet } from '@react-pdf/renderer'
 import _ from 'lodash'
 import PDFQuestionItem from './PDFQuestionItem'
@@ -7,21 +7,8 @@ import PDFAnswerBooklet from './PDFAnswerBooklet'
 
 const styles = StyleSheet.create({
   page: {
-    fontSize: 11,
-    marginTop: 20,
-    paddingTop: 20,
-    paddingBottom: 50,
-    marginBottom: 50,
-    paddingLeft: 20,
-    marginLeft: 20,
-    paddingRight: 40,
-    marginRight: 40,
-    flexGrow: 1
-  },
-  section: {
-    margin: 10,
-    padding: 10,
-    flexGrow: 1
+    fontSize: 12,
+    padding: 60,
   }
 });
 
@@ -29,6 +16,7 @@ const styles = StyleSheet.create({
 const crc32=function(r){for(var a,o=[],c=0;c<256;c++){a=c;for(var f=0;f<8;f++)a=1&a?3988292384^a>>>1:a>>>1;o[c]=a}for(var n=-1,t=0;t<r.length;t++)n=n>>>8^o[255&(n^r.charCodeAt(t))];return(-1^n)>>>0};
 
 let testBank = [];
+let testBankAudit = [];
 let serial = 0;
 let answerChunks = [];
 let testSecurityCode = '';
@@ -48,6 +36,8 @@ const generateTestBank = (questionBank) => {
   answerChunks = _.map(testBank, 'answer').map(num => String.fromCharCode('a'.charCodeAt(0) + num - 1));
   testSecurityCode = crc32(JSON.stringify(answerChunks));
   answerChunks = _.chunk(answerChunks,10);
+  testBankAudit = _.chunk(_.map(testBank, 'qid'), 30);
+  console.log(testBankAudit);
 };
 
 const GenPDF = ({ questionBank }) => {
@@ -56,18 +46,25 @@ const GenPDF = ({ questionBank }) => {
   <PDFViewer width="100%" height="100%">
     <Document>
       <Page size="A4" style={styles.page} >
-          <Text style={{paddingBottom: 10, fontSize:12}} render={({ pageNumber, totalPages }) => (
-            `NZART Exam Paper Demo       Page ${pageNumber} / ${totalPages - 2}      Security Code: ${testSecurityCode}`
-          )} fixed />
-          {testBank.map((question) => (
-            <PDFQuestionItem key={question.qid} question={question} />
-          ))}
+        <View style={{flexDirection: "row", alignItems: "stretch", justifyContent: "space-between", paddingBottom: 20, fontFamily: "Helvetica-Bold", fontWeight: "bold"}} fixed>
+          <Text>NZART Exam Paper Demo</Text>
+          <Text render={({ subPageNumber, subPageTotalPages }) => (
+            `Page ${subPageNumber} / ${subPageTotalPages}`
+          )} />
+          <Text>Security Code: {testSecurityCode}</Text>
+        </View>
+        {testBank.map((question) => (
+          <PDFQuestionItem key={question.qid} question={question} />
+        ))}
       </Page>
       <PDFAnswerPage answerChunks={answerChunks} testSecurityCode={testSecurityCode} />
+      <PDFAnswerPage answerChunks={testBankAudit} testSecurityCode={testSecurityCode} />
+
       <Page size="A4" style={styles.page} >
-        <Text style={{paddingBottom: 10, fontSize:12}} render={() => (
-          `NZART Exam Paper Demo       Exam Candidate's Answer Sheet      Security Code: ${testSecurityCode}`
+        <Text style={{paddingBottom: 10, fontFamily: "Helvetica-Bold", fontWeight: "bold"}} render={() => (
+          `NZART Exam Paper Demo    Candidate's Answer Sheet   Security Code: ${testSecurityCode}`
         )} fixed />
+        <Text style={{paddingBottom: 10, paddingTop: 10, fontFamily: "Helvetica-Bold", fontWeight: "bold", textAlign:"center"}}>Name: _______________________________</Text>
         <PDFAnswerBooklet />
       </Page>
     </Document>

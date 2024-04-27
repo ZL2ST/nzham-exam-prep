@@ -4,7 +4,7 @@ import PDFImage from './PDFImage'
 const PDFQuestionItem = ({ question }) => {
   const letters = ['a', 'b', 'c', 'd'];
   return (
-    <View wrap={false}>
+    <View wrap={false} style={{paddingRight: 35}}>
       <Text>{question.serial + '. ' + question.question}</Text>
       <Text>&nbsp;</Text>
       { question.img ? <PDFImage pix={question.img} /> : null }

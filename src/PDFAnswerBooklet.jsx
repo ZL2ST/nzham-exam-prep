@@ -2,12 +2,13 @@ import { View, Text, StyleSheet } from '@react-pdf/renderer'
 import _ from 'lodash'
 
 const styles = StyleSheet.create({
+  tbl: { marginTop: 20 },
   row: { flexDirection: "row" },
-  cell: { padding: 10, borderStyle: "solid", borderWidth: 1, borderLeftWidth: 0, borderTopWidth: 0 },
+  cell: { padding: 9, borderStyle: "solid", borderWidth: 1, borderLeftWidth: 0, borderTopWidth: 0 },
 });
 
 const AnswerGridSection = ({answerGrid}) => (
-  <View>
+  <View style={styles.tbl}>
     {answerGrid.map((row, i) => (
       <View key={i} style={styles.row}>
         {row.map((cell, j) => {
