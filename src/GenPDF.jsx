@@ -4,6 +4,7 @@ import _ from 'lodash'
 import PDFQuestionItem from './PDFQuestionItem'
 import PDFAnswerPage from './PDFAnswerPage'
 import PDFAnswerBooklet from './PDFAnswerBooklet'
+import PDFExamLogPage from './PDFExamLogPage'
 
 const styles = StyleSheet.create({
   page: {
@@ -37,7 +38,6 @@ const generateTestBank = (questionBank) => {
   testSecurityCode = crc32(JSON.stringify(answerChunks));
   answerChunks = _.chunk(answerChunks,10);
   testBankAudit = _.chunk(_.map(testBank, 'qid'), 30);
-  console.log(testBankAudit);
 };
 
 const GenPDF = ({ questionBank }) => {
@@ -57,16 +57,17 @@ const GenPDF = ({ questionBank }) => {
           <PDFQuestionItem key={question.qid} question={question} />
         ))}
       </Page>
-      <PDFAnswerPage answerChunks={answerChunks} testSecurityCode={testSecurityCode} />
-      <PDFAnswerPage answerChunks={testBankAudit} testSecurityCode={testSecurityCode} />
-
       <Page size="A4" style={styles.page} >
-        <Text style={{paddingBottom: 10, fontFamily: "Helvetica-Bold", fontWeight: "bold"}} render={() => (
-          `NZART Exam Paper Demo    Candidate's Answer Sheet   Security Code: ${testSecurityCode}`
-        )} fixed />
+        <View style={{flexDirection: "row", alignItems: "stretch", justifyContent: "space-between", paddingBottom: 10, fontFamily: "Helvetica-Bold", fontWeight: "bold"}} fixed>
+          <Text>NZART Exam Paper Demo</Text>
+          <Text>Candidate&rsquo;s Answer Sheet</Text>
+          <Text>Security Code: {testSecurityCode}</Text>
+        </View>
         <Text style={{paddingBottom: 10, paddingTop: 10, fontFamily: "Helvetica-Bold", fontWeight: "bold", textAlign:"center"}}>Name: _______________________________</Text>
         <PDFAnswerBooklet />
       </Page>
+      <PDFAnswerPage answerChunks={answerChunks} testSecurityCode={testSecurityCode} />
+      <PDFExamLogPage testBankAudit={testBankAudit} testSecurityCode={testSecurityCode} />
     </Document>
   </PDFViewer>
   )

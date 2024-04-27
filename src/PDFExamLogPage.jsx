@@ -13,24 +13,24 @@ const styles = StyleSheet.create({
   },
   cell: {
     border: "1px solid black",
-    paddingHorizontal: "30px",
-    paddingVertical: "26px",
+    paddingHorizontal: 12,
+    paddingVertical: 4,
     borderWidth: 1,
     borderLeftWidth: 0,
     borderTopWidth: 0
   }
 });
 
-const PDFAnswerPage = ({ answerChunks, testSecurityCode }) => {
+const PDFExamLogPage = ({ testBankAudit, testSecurityCode }) => {
   return (
     <Page size="A4" style={styles.page}>
       <View style={{flexDirection: "row", alignItems: "stretch", justifyContent: "space-between", paddingBottom: 10, fontFamily: "Helvetica-Bold", fontWeight: "bold"}} fixed>
         <Text>NZART Exam Paper Demo</Text>
-        <Text>Marker&rsquo;s Answer Sheet</Text>
+        <Text>Exam Log File</Text>
         <Text>Security Code: {testSecurityCode}</Text>
       </View>
       <View style={styles.tbl}>
-        {answerChunks.map((row, i) => (
+        {testBankAudit.map((row, i) => (
           <View key={i}>
             {row.map((cell, j) => { 
               let cellX = _.clone(styles.cell);
@@ -42,7 +42,7 @@ const PDFAnswerPage = ({ answerChunks, testSecurityCode }) => {
               }
               return (
                 <View key={j}>
-                  <Text style={cellX}>{(j + 1) + i * 10}. {cell}</Text>
+                  <Text style={cellX}>{(j + 1) + i * 30 }. {cell}</Text>
                 </View>
               )
             })}
@@ -53,4 +53,4 @@ const PDFAnswerPage = ({ answerChunks, testSecurityCode }) => {
   )
 };
 
-export default PDFAnswerPage;
+export default PDFExamLogPage;
