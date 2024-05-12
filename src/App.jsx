@@ -5,14 +5,12 @@ import Exam from './Exam'
 import TopicList from './TopicList'
 import GenPDF from './GenPDF'
 import React from 'react'
-import ReactDOM from 'react-dom/client'
 import { questionBank } from './nzart.json'
 
 const App = () => { 
   const [splashVisible, setSplashVisible] = useState(true);
   const [examVisible, setExamVisible] = useState(false);
   const [topicListVisible, setTopicListVisible] = useState(false);
-  const [newWindow, setNewWindow] = useState(null);
 
   const handleExamButtonClick = () => {
     setSplashVisible(false);
@@ -28,20 +26,6 @@ const App = () => {
     setExamVisible(false);
     setTopicListVisible(false);
   }
-  const handleGenPDFButtonClick = () => {
-    if (!newWindow || newWindow.closed) {
-      const newWindowObj = window.open();
-      setNewWindow(newWindowObj);
-      newWindowObj.document.write('<div id="exam-pdf-root"></div>');
-      ReactDOM.createRoot(newWindowObj.document.getElementById('exam-pdf-root')).render(
-        <React.StrictMode>
-          <GenPDF questionBank={questionBank} />
-        </React.StrictMode>
-      )
-    } else {
-      newWindow.focus();
-    }
-  }
 
   return (
     <div className="App">
@@ -55,7 +39,7 @@ const App = () => {
           </p>
           <ActionButton action={handleExamButtonClick} label='Start exam' />&nbsp;
           <ActionButton action={handleTopicListButtonClick} label='Choose a topic' />&nbsp;
-          <ActionButton action={handleGenPDFButtonClick} label='Generate PDF' />&nbsp;
+          <GenPDF />
           <div className="fine-print">
             <p>
               The question bank used in this tool are the same as the 600 questions on question bank on the 

@@ -1,10 +1,11 @@
-import { PDFViewer, View } from '@react-pdf/renderer'
+import { PDFDownloadLink, View } from '@react-pdf/renderer'
 import { Document, Page, Text, StyleSheet } from '@react-pdf/renderer'
 import _ from 'lodash'
 import PDFQuestionItem from './PDFQuestionItem'
 import PDFAnswerPage from './PDFAnswerPage'
 import PDFAnswerBooklet from './PDFAnswerBooklet'
 import PDFExamLogPage from './PDFExamLogPage'
+import { questionBank } from './nzart.json'
 
 const styles = StyleSheet.create({
   page: {
@@ -40,37 +41,45 @@ const generateTestBank = (questionBank) => {
   testBankAudit = _.chunk(_.map(testBank, 'qid'), 30);
 };
 
-const GenPDF = ({ questionBank }) => {
+const GenPDF = () => {
   generateTestBank(questionBank);
+  const Paper = () => {
+    return (
+      <Document>
+        <Page size="A4" style={styles.page} >
+          <View style={{flexDirection: "row", alignItems: "stretch", justifyContent: "space-between", paddingBottom: 20, fontFamily: "Helvetica-Bold", fontWeight: "bold"}} fixed>
+            <Text>NZART Exam Paper Demo</Text>
+            <Text render={({ subPageNumber, subPageTotalPages }) => (
+              `Page ${subPageNumber} / ${subPageTotalPages}`
+            )} />
+            <Text>Security Code: {testSecurityCode}</Text>
+          </View>
+          {testBank.map((question) => (
+            <PDFQuestionItem key={question.qid} question={question} />
+          ))}
+        </Page>
+        <Page size="A4" style={styles.page} >
+          <View style={{flexDirection: "row", alignItems: "stretch", justifyContent: "space-between", paddingBottom: 10, fontFamily: "Helvetica-Bold", fontWeight: "bold"}} fixed>
+            <Text>NZART Exam Paper Demo</Text>
+            <Text>Candidate&rsquo;s Answer Sheet</Text>
+            <Text>Security Code: {testSecurityCode}</Text>
+          </View>
+          <Text style={{paddingBottom: 10, paddingTop: 10, fontFamily: "Helvetica-Bold", fontWeight: "bold", textAlign:"center"}}>Name: _______________________________</Text>
+          <PDFAnswerBooklet />
+        </Page>
+        <PDFAnswerPage answerChunks={answerChunks} testSecurityCode={testSecurityCode} />
+        <PDFExamLogPage testBankAudit={testBankAudit} testSecurityCode={testSecurityCode} />
+      </Document>
+    )
+  }
+  const pdfDownloadName = `nzart-exam-${testSecurityCode}.pdf`;
   return (
-  <PDFViewer width="100%" height="100%">
-    <Document>
-      <Page size="A4" style={styles.page} >
-        <View style={{flexDirection: "row", alignItems: "stretch", justifyContent: "space-between", paddingBottom: 20, fontFamily: "Helvetica-Bold", fontWeight: "bold"}} fixed>
-          <Text>NZART Exam Paper Demo</Text>
-          <Text render={({ subPageNumber, subPageTotalPages }) => (
-            `Page ${subPageNumber} / ${subPageTotalPages}`
-          )} />
-          <Text>Security Code: {testSecurityCode}</Text>
-        </View>
-        {testBank.map((question) => (
-          <PDFQuestionItem key={question.qid} question={question} />
-        ))}
-      </Page>
-      <Page size="A4" style={styles.page} >
-        <View style={{flexDirection: "row", alignItems: "stretch", justifyContent: "space-between", paddingBottom: 10, fontFamily: "Helvetica-Bold", fontWeight: "bold"}} fixed>
-          <Text>NZART Exam Paper Demo</Text>
-          <Text>Candidate&rsquo;s Answer Sheet</Text>
-          <Text>Security Code: {testSecurityCode}</Text>
-        </View>
-        <Text style={{paddingBottom: 10, paddingTop: 10, fontFamily: "Helvetica-Bold", fontWeight: "bold", textAlign:"center"}}>Name: _______________________________</Text>
-        <PDFAnswerBooklet />
-      </Page>
-      <PDFAnswerPage answerChunks={answerChunks} testSecurityCode={testSecurityCode} />
-      <PDFExamLogPage testBankAudit={testBankAudit} testSecurityCode={testSecurityCode} />
-    </Document>
-  </PDFViewer>
-  )
+    <PDFDownloadLink document={<Paper />} fileName={pdfDownloadName}>
+      {({ loading }) =>
+        loading ? 'Loading document...' : <button>Generate PDF</button>
+      }
+    </PDFDownloadLink>
+  );
 };
 
 export default GenPDF;
