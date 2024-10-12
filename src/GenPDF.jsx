@@ -48,7 +48,7 @@ const GenPDF = () => {
       <Document>
         <Page size="A4" style={styles.page} >
           <View style={{flexDirection: "row", alignItems: "stretch", justifyContent: "space-between", paddingBottom: 20, fontFamily: "Helvetica-Bold", fontWeight: "bold"}} fixed>
-            <Text>NZART Exam Paper Demo</Text>
+            <Text>NZART Exam</Text>
             <Text render={({ subPageNumber, subPageTotalPages }) => (
               `Page ${subPageNumber} / ${subPageTotalPages}`
             )} />
