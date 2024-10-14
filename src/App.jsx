@@ -39,7 +39,7 @@ const App = () => {
                 For students and instructors: Mock exam generator to help prepare for the exam
               </li>
               <li>
-                For NZART approved examiners: Printable exam papers to conduct an official exam  
+                For NZART exam supervisor: Printable PDF exam papers to conduct an official exam  
               </li>
             </ul>
           </p>
@@ -52,17 +52,17 @@ const App = () => {
             Learning materials and information on getting help from your local radio club
             is available <a href="https://www.nzart.org.nz/learn/" target="_blank" rel="noreferrer">here</a>. 
             If you prefer a printable version of the exam to practice on, click on the &quot;Generate PDF&quot; 
-            button further below.
+            button further down below. Either way, you are responsible for keeping track of time yourself.
           </p>
           <ActionButton action={handleExamButtonClick} label='Start exam' />&nbsp;
           <ActionButton action={handleTopicListButtonClick} label='Choose a topic' />&nbsp;
           <h3>
-            NZART examiner resources
+            NZART exam supervisor resources
           </h3>
           <p>
             Click on the &quot;Generate PDF&quot; button below to generate and download a printable exam paper.
-            Candidates who have passed the application can apply for a call sign using the PDF form <a href="call-sign-form-v1.1.pdf" target="_blank" rel="noreferrer">here</a>. Examiners are required by NZART to follow
-            the process as outlined <a href="https://www.nzart.org.nz/learn/exam/proceedure" target="_blank" rel="noreferrer">here</a>.
+            Candidates who have passed the application can apply for a call sign using the PDF form <a href="call-sign-form-v1.1.pdf" target="_blank" rel="noreferrer">here</a>. 
+            Exam guidelines and processes are set by NZART which can be found <a href="https://www.nzart.org.nz/learn/exam/proceedure" target="_blank" rel="noreferrer">here</a>.
           </p>
           <GenPDF />
           <div className="fine-print">
