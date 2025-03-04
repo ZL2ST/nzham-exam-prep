@@ -25,7 +25,7 @@ const PDFExamLogPage = ({ testBankAudit, testSecurityCode }) => {
   return (
     <Page size="A4" style={styles.page}>
       <View style={{flexDirection: "row", alignItems: "stretch", justifyContent: "space-between", paddingBottom: 10, fontFamily: "Helvetica-Bold", fontWeight: "bold"}} fixed>
-        <Text>NZART Exam Paper Demo</Text>
+        <Text>NZART Exam</Text>
         <Text>Exam Log File</Text>
         <Text>Security Code: {testSecurityCode}</Text>
       </View>
