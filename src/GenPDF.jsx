@@ -5,6 +5,7 @@ import PDFQuestionItem from './PDFQuestionItem'
 import PDFAnswerPage from './PDFAnswerPage'
 import PDFAnswerBooklet from './PDFAnswerBooklet'
 import PDFExamLogPage from './PDFExamLogPage'
+import PDFCoverPage from './PDFCoverPage'
 import { questionBank } from './nzart.json'
 
 const styles = StyleSheet.create({
@@ -46,6 +47,7 @@ const GenPDF = () => {
   const Paper = () => {
     return (
       <Document>
+        <PDFCoverPage />
         <Page size="A4" style={styles.page} >
           <View style={{flexDirection: "row", alignItems: "stretch", justifyContent: "space-between", paddingBottom: 20, fontFamily: "Helvetica-Bold", fontWeight: "bold"}} fixed>
             <Text>NZART Exam</Text>
@@ -60,7 +62,7 @@ const GenPDF = () => {
         </Page>
         <Page size="A4" style={styles.page} >
           <View style={{flexDirection: "row", alignItems: "stretch", justifyContent: "space-between", paddingBottom: 10, fontFamily: "Helvetica-Bold", fontWeight: "bold"}} fixed>
-            <Text>NZART Exam Paper Demo</Text>
+            <Text>NZART Exam Paper</Text>
             <Text>Candidate&rsquo;s Answer Sheet</Text>
             <Text>Security Code: {testSecurityCode}</Text>
           </View>
