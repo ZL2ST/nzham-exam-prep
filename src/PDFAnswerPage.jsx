@@ -17,7 +17,10 @@ const styles = StyleSheet.create({
     paddingVertical: "26px",
     borderWidth: 1,
     borderLeftWidth: 0,
-    borderTopWidth: 0
+    borderTopWidth: 0,
+  },
+  boldElement: {
+    fontFamily: "Helvetica-Bold"
   }
 });
 
@@ -42,7 +45,10 @@ const PDFAnswerPage = ({ answerChunks, testSecurityCode }) => {
               }
               return (
                 <View key={j}>
-                  <Text style={cellX}>{(j + 1) + i * 10}. {cell}</Text>
+                  <Text style={cellX}>
+                    <Text style={styles.boldElement}>{(j + 1) + i * 10}</Text>
+                    <Text>. {cell}</Text>
+                  </Text>
                 </View>
               )
             })}

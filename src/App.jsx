@@ -32,7 +32,7 @@ const App = () => {
       { splashVisible && 
         <>
           <h2>NZ Amateur Radio Exam Website</h2>
-          <p>
+          <div>
             This website contains the following:
             <ul>
               <li>
@@ -42,7 +42,7 @@ const App = () => {
                 For NZART exam supervisor: Printable PDF exam papers to conduct an official exam  
               </li>
             </ul>
-          </p>
+          </div>
           <h3>
             Student and instructor resources
           </h3>

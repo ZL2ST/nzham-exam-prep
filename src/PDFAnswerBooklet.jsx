@@ -14,10 +14,13 @@ const AnswerGridSection = ({answerGrid}) => (
         {row.map((cell, j) => {
           let cellX = _.clone(styles.cell);
           if (i==0) { 
-            cellX.borderTopWidth= 1;
+            cellX.borderTopWidth = 1;
+          }
+          if (j==0) { 
+            cellX.fontFamily = "Helvetica-Bold";
           }
           if (j==0 && cell < 21) { 
-            cellX.borderLeftWidth= 1;
+            cellX.borderLeftWidth = 1;
           }
           return (
             <View key={j}>
