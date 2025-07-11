@@ -3106,7 +3106,7 @@
             "questionSet": [
                 {
                     "id": 1,
-                    "img": "npn.gif",
+                    "img": "npn.jpg",
                     "question": "In the figure shown, 2 represents the:",
                     "choices": [
                         "collector of a pnp transistor",
@@ -3118,7 +3118,7 @@
                 },
                 {
                     "id": 2,
-                    "img": "npn.gif",
+                    "img": "npn.jpg",
                     "question": "In the figure shown, 3 represents the:",
                     "choices": [
                         "drain of a junction FET",
@@ -3130,7 +3130,7 @@
                 },
                 {
                     "id": 3,
-                    "img": "pnp.gif",
+                    "img": "pnp.jpg",
                     "question": "In the figure shown, 2 represents the:",
                     "choices": [
                         "base of a pnp transistor",
@@ -3142,7 +3142,7 @@
                 },
                 {
                     "id": 4,
-                    "img": "pnp.gif",
+                    "img": "pnp.jpg",
                     "question": "In the figure shown, 1 represents the:",
                     "choices": [
                         "collector of a pnp transistor",
@@ -3154,7 +3154,7 @@
                 },
                 {
                     "id": 5,
-                    "img": "jfet.gif",
+                    "img": "jfet.jpg",
                     "question": "In the figure shown, 2 represents the:",
                     "choices": [
                         "drain of a p-channel junction FET",
@@ -3166,7 +3166,7 @@
                 },
                 {
                     "id": 6,
-                    "img": "jfet.gif",
+                    "img": "jfet.jpg",
                     "question": "In the figure shown, 3 represents the:",
                     "choices": [
                         "source of an n-channel junction FET",
@@ -3178,7 +3178,7 @@
                 },
                 {
                     "id": 7,
-                    "img": "mosfet.gif",
+                    "img": "mosfet.jpg",
                     "question": "In the figure shown, 2 represents the:",
                     "choices": [
                         "gate of a MOSFET",
@@ -3190,7 +3190,7 @@
                 },
                 {
                     "id": 8,
-                    "img": "mosfet.gif",
+                    "img": "mosfet.jpg",
                     "question": "The figure shown represents a:",
                     "choices": [
                         "dual bipolar transistor",
@@ -3202,7 +3202,7 @@
                 },
                 {
                     "id": 9,
-                    "img": "tetrode.gif",
+                    "img": "tetrode.jpg",
                     "question": "In the figure shown, 3 represents the:",
                     "choices": [
                         "filament of a tetrode",
@@ -3214,7 +3214,7 @@
                 },
                 {
                     "id": 10,
-                    "img": "tetrode.gif",
+                    "img": "tetrode.jpg",
                     "question": "In the figure shown, 5 represents the:",
                     "choices": [
                         "grid of a tetrode",
@@ -3493,7 +3493,7 @@
             "questionSet": [
                 {
                     "id": 1,
-                    "img": "hfsta.gif",
+                    "img": "hfsta.jpg",
                     "question": "In the block diagram shown, the \"linear amplifier\" is:",
                     "choices": [
                         "an amplifier to remove distortion in signals from the transceiver",
@@ -3505,7 +3505,7 @@
                 },
                 {
                     "id": 2,
-                    "img": "hfsta.gif",
+                    "img": "hfsta.jpg",
                     "question": "In the block diagram shown, the additional signal path above the \"linear amplifier\" block indicates that:",
                     "choices": [
                         "some power is passed around the linear amplifier for stability",
@@ -3517,7 +3517,7 @@
                 },
                 {
                     "id": 3,
-                    "img": "hfsta.gif",
+                    "img": "hfsta.jpg",
                     "question": "In the block diagram shown, the \"low pass filter\" must be rated to:",
                     "choices": [
                         "carry the full power output from the station",
@@ -3529,7 +3529,7 @@
                 },
                 {
                     "id": 4,
-                    "img": "hfsta.gif",
+                    "img": "hfsta.jpg",
                     "question": "In the block diagram shown, the \"SWR bridge\" is a:",
                     "choices": [
                         "switched wave rectifier for monitoring power output",
@@ -3541,7 +3541,7 @@
                 },
                 {
                     "id": 5,
-                    "img": "hfsta.gif",
+                    "img": "hfsta.jpg",
                     "question": "In the block diagram shown, the \"antenna switch\":",
                     "choices": [
                         "switches the transmitter output to the dummy load for tune-up purposes",
@@ -3553,7 +3553,7 @@
                 },
                 {
                     "id": 6,
-                    "img": "hfsta.gif",
+                    "img": "hfsta.jpg",
                     "question": "In the block diagram shown, the \"antenna tuner\":",
                     "choices": [
                         "adjusts the resonant frequency of the antenna to minimize harmonic radiation",
@@ -3565,7 +3565,7 @@
                 },
                 {
                     "id": 7,
-                    "img": "hfsta.gif",
+                    "img": "hfsta.jpg",
                     "question": "In the block diagram shown, the \"dummy load\" is:",
                     "choices": [
                         "used to allow adjustment of the transmitter without causing interference to others",
@@ -3577,7 +3577,7 @@
                 },
                 {
                     "id": 8,
-                    "img": "hfsta.gif",
+                    "img": "hfsta.jpg",
                     "question": "In the block diagram shown, the connection between the SWR bridge and the antenna switch is normally a:",
                     "choices": [
                         "twisted pair cable",
@@ -3589,7 +3589,7 @@
                 },
                 {
                     "id": 9,
-                    "img": "hfsta.gif",
+                    "img": "hfsta.jpg",
                     "question": "In this block diagram, the block designated \"antenna tuner\" is not normally necessary when:",
                     "choices": [
                         "the antenna input impedance is 50 ohms",
@@ -3601,7 +3601,7 @@
                 },
                 {
                     "id": 10,
-                    "img": "hfsta.gif",
+                    "img": "hfsta.jpg",
                     "question": "In the block diagram shown, the connection between the \"antenna tuner\" and the \"antenna\" could be made with:",
                     "choices": [
                         "three-wire mains power cable",
@@ -3622,7 +3622,7 @@
             "questionSet": [
                 {
                     "id": 1,
-                    "img": "ssbrx.gif",
+                    "img": "ssbrx.jpg",
                     "question": "In the block diagram of the receiver shown, the \"RF amplifier\":",
                     "choices": [
                         "decreases random fluctuation noise",
@@ -3634,7 +3634,7 @@
                 },
                 {
                     "id": 2,
-                    "img": "ssbrx.gif",
+                    "img": "ssbrx.jpg",
                     "question": "In the block diagram of the receiver shown, the \"mixer\":",
                     "choices": [
                         "combines signals at two different frequencies to produce one at an intermediate frequency",
@@ -3646,7 +3646,7 @@
                 },
                 {
                     "id": 3,
-                    "img": "ssbrx.gif",
+                    "img": "ssbrx.jpg",
                     "question": "In the block diagram of the receiver shown, the output frequency of the \"oscillator\" is:",
                     "choices": [
                         "the same as that of the incoming received signal",
@@ -3658,7 +3658,7 @@
                 },
                 {
                     "id": 4,
-                    "img": "ssbrx.gif",
+                    "img": "ssbrx.jpg",
                     "question": "In the block diagram of the receiver shown, the \"filter\" rejects:",
                     "choices": [
                         "AM and RTTY signals",
@@ -3670,7 +3670,7 @@
                 },
                 {
                     "id": 5,
-                    "img": "ssbrx.gif",
+                    "img": "ssbrx.jpg",
                     "question": "In the block diagram of the receiver shown, the \"IF amplifier\" is an:",
                     "choices": [
                         "isolation frequency amplifier",
@@ -3682,7 +3682,7 @@
                 },
                 {
                     "id": 6,
-                    "img": "ssbrx.gif",
+                    "img": "ssbrx.jpg",
                     "question": "In the block diagram of the receiver shown, the \"product detector\":",
                     "choices": [
                         "produces an 800 Hz beat note",
@@ -3694,7 +3694,7 @@
                 },
                 {
                     "id": 7,
-                    "img": "ssbrx.gif",
+                    "img": "ssbrx.jpg",
                     "question": "In the block diagram of the receiver shown, the \"AF amplifier\":",
                     "choices": [
                         "rejects AM and RTTY signals",
@@ -3706,7 +3706,7 @@
                 },
                 {
                     "id": 8,
-                    "img": "ssbrx.gif",
+                    "img": "ssbrx.jpg",
                     "question": "In the block diagram of the receiver shown, the \"BFO\" stands for:",
                     "choices": [
                         "bad frequency obscurer",
@@ -3718,7 +3718,7 @@
                 },
                 {
                     "id": 9,
-                    "img": "ssbrx.gif",
+                    "img": "ssbrx.jpg",
                     "question": "In the block diagram of the receiver shown, most of the receiver gain is in the:",
                     "choices": [
                         "RF amplifier",
@@ -3730,7 +3730,7 @@
                 },
                 {
                     "id": 10,
-                    "img": "fmrx.gif",
+                    "img": "fmrx.jpg",
                     "question": "In the block diagram of the receiver shown, the \"RF amplifier\":",
                     "choices": [
                         "decreases random fluctuation noise",
@@ -3742,7 +3742,7 @@
                 },
                 {
                     "id": 11,
-                    "img": "fmrx.gif",
+                    "img": "fmrx.jpg",
                     "question": "In the block diagram of the receiver shown, the \"mixer\":",
                     "choices": [
                         "changes the signal frequency",
@@ -3754,7 +3754,7 @@
                 },
                 {
                     "id": 12,
-                    "img": "fmrx.gif",
+                    "img": "fmrx.jpg",
                     "question": "In the receiver shown, when receiving a signal, the output frequency of the \"oscillator\" is:",
                     "choices": [
                         "the same as that of the signal",
@@ -3766,7 +3766,7 @@
                 },
                 {
                     "id": 13,
-                    "img": "fmrx.gif",
+                    "img": "fmrx.jpg",
                     "question": "In the block diagram of the receiver shown, the \"limiter\":",
                     "choices": [
                         "limits the signal to a constant amplitude",
@@ -3778,7 +3778,7 @@
                 },
                 {
                     "id": 14,
-                    "img": "fmrx.gif",
+                    "img": "fmrx.jpg",
                     "question": "In the block diagram of the receiver shown, the \"frequency demodulator\" could be implemented with a:",
                     "choices": [
                         "product detector",
@@ -3790,7 +3790,7 @@
                 },
                 {
                     "id": 15,
-                    "img": "fmrx.gif",
+                    "img": "fmrx.jpg",
                     "question": "In the block diagram of the receiver shown, the \"AF amplifier\":",
                     "choices": [
                         "amplifies stereo signals",
@@ -3802,7 +3802,7 @@
                 },
                 {
                     "id": 16,
-                    "img": "fmrx.gif",
+                    "img": "fmrx.jpg",
                     "question": "In this receiver, an audio frequency gain control would be associated with the block labelled:",
                     "choices": [
                         "AF amplifier",
@@ -3814,7 +3814,7 @@
                 },
                 {
                     "id": 17,
-                    "img": "fmrx.gif",
+                    "img": "fmrx.jpg",
                     "question": "In the block diagram of the receiver shown, the selectivity would be set by the:",
                     "choices": [
                         "AF amplifier",
@@ -3826,7 +3826,7 @@
                 },
                 {
                     "id": 18,
-                    "img": "fmrx.gif",
+                    "img": "fmrx.jpg",
                     "question": "In the FM communications receiver shown in the block diagram, the \"filter\" bandwidth is typically:",
                     "choices": [
                         "3 kHz",
@@ -3838,7 +3838,7 @@
                 },
                 {
                     "id": 19,
-                    "img": "fmrx.gif",
+                    "img": "fmrx.jpg",
                     "question": "In the block diagram of the receiver shown, an automatic gain control (AGC) circuit would be associated with the:",
                     "choices": [
                         "Speaker",
@@ -3850,7 +3850,7 @@
                 },
                 {
                     "id": 20,
-                    "img": "fmrx.gif",
+                    "img": "fmrx.jpg",
                     "question": "In the block diagram of the receiver shown, the waveform produced by the \"oscillator\" would ideally be a:",
                     "choices": [
                         "square wave",
@@ -4240,7 +4240,7 @@
             "questionSet": [
                 {
                     "id": 1,
-                    "img": "ssbtx.gif",
+                    "img": "ssbtx.jpg",
                     "question": "In the transmitter block diagram shown, the \"oscillator\":",
                     "choices": [
                         "is variable in frequency",
@@ -4252,7 +4252,7 @@
                 },
                 {
                     "id": 2,
-                    "img": "ssbtx.gif",
+                    "img": "ssbtx.jpg",
                     "question": "In the transmitter block diagram shown, the \"balanced modulator\":",
                     "choices": [
                         "balances the high and low frequencies in the audio signal",
@@ -4264,7 +4264,7 @@
                 },
                 {
                     "id": 3,
-                    "img": "ssbtx.gif",
+                    "img": "ssbtx.jpg",
                     "question": "In the transmitter block diagram shown, the \"filter\":",
                     "choices": [
                         "removes mains hum from the audio signal",
@@ -4276,7 +4276,7 @@
                 },
                 {
                     "id": 4,
-                    "img": "ssbtx.gif",
+                    "img": "ssbtx.jpg",
                     "question": "In the transmitter block diagram shown, the \"mixer\":",
                     "choices": [
                         "adds the correct proportion of carrier to the SSB signal",
@@ -4288,7 +4288,7 @@
                 },
                 {
                     "id": 5,
-                    "img": "ssbtx.gif",
+                    "img": "ssbtx.jpg",
                     "question": "In the transmitter block diagram shown, the \"linear amplifier\":",
                     "choices": [
                         "has all components arranged in-line",
@@ -4300,7 +4300,7 @@
                 },
                 {
                     "id": 6,
-                    "img": "ssbtx.gif",
+                    "img": "ssbtx.jpg",
                     "question": "In the transmitter block diagram shown, the \"VFO\" is:",
                     "choices": [
                         "a voice frequency oscillator",
@@ -4312,7 +4312,7 @@
                 },
                 {
                     "id": 7,
-                    "img": "cwtx.gif",
+                    "img": "cwtx.jpg",
                     "question": "In the transmitter block diagram shown, the \"master oscillator\" produces:",
                     "choices": [
                         "a steady signal at the required carrier frequency",
@@ -4324,7 +4324,7 @@
                 },
                 {
                     "id": 8,
-                    "img": "cwtx.gif",
+                    "img": "cwtx.jpg",
                     "question": "In the transmitter block diagram shown, the \"driver buffer\":",
                     "choices": [
                         "filters any sharp edges from the input signal",
@@ -4336,7 +4336,7 @@
                 },
                 {
                     "id": 9,
-                    "img": "cwtx.gif",
+                    "img": "cwtx.jpg",
                     "question": "In the transmitter block diagram shown, the \"Morse key\":",
                     "choices": [
                         "turns the DC power to the transmitter on and off",
@@ -4348,7 +4348,7 @@
                 },
                 {
                     "id": 10,
-                    "img": "cwtx.gif",
+                    "img": "cwtx.jpg",
                     "question": "In the transmitter block diagram shown, the \"power amplifier\":",
                     "choices": [
                         "need not have linear characteristics",
@@ -4360,7 +4360,7 @@
                 },
                 {
                     "id": 11,
-                    "img": "fmtx.gif",
+                    "img": "fmtx.jpg",
                     "question": "In the transmitter block diagram shown, the \"speech amplifier\":",
                     "choices": [
                         "amplifies the audio signal from the microphone",
@@ -4372,7 +4372,7 @@
                 },
                 {
                     "id": 12,
-                    "img": "fmtx.gif",
+                    "img": "fmtx.jpg",
                     "question": "In the transmitter block diagram shown, the \"modulator\":",
                     "choices": [
                         "is an amplitude modulator with feedback",
@@ -4384,7 +4384,7 @@
                 },
                 {
                     "id": 13,
-                    "img": "fmtx.gif",
+                    "img": "fmtx.jpg",
                     "question": "In the transmitter block diagram shown, the \"oscillator\" is:",
                     "choices": [
                         "an audio frequency oscillator",
@@ -4396,7 +4396,7 @@
                 },
                 {
                     "id": 14,
-                    "img": "fmtx.gif",
+                    "img": "fmtx.jpg",
                     "question": "In the transmitter block diagram shown, the \"frequency multiplier\":",
                     "choices": [
                         "translates the frequency of the modulated signal into the RF spectrum",
@@ -4408,7 +4408,7 @@
                 },
                 {
                     "id": 15,
-                    "img": "fmtx.gif",
+                    "img": "fmtx.jpg",
                     "question": "In the transmitter block diagram shown, the \"power amplifier\":",
                     "choices": [
                         "increases the voltage of the mains to drive the antenna",
@@ -4996,7 +4996,7 @@
             "questionSet": [
                 {
                     "id": 1,
-                    "img": "regps.gif",
+                    "img": "regps.jpg",
                     "question": "The block marked 'Filter' in the diagram is to:",
                     "choices": [
                         "filter RF radiation from the output of the power supply",
@@ -5008,7 +5008,7 @@
                 },
                 {
                     "id": 2,
-                    "img": "regps.gif",
+                    "img": "regps.jpg",
                     "question": "The block marked 'Regulator' in the diagram is to:",
                     "choices": [
                         "regulate the incoming mains voltage to a constant value",
@@ -5020,7 +5020,7 @@
                 },
                 {
                     "id": 3,
-                    "img": "regps.gif",
+                    "img": "regps.jpg",
                     "question": "The block marked 'Transformer' in the diagram is to:",
                     "choices": [
                         "transform the incoming mains AC voltage to a DC voltage",
@@ -5032,7 +5032,7 @@
                 },
                 {
                     "id": 4,
-                    "img": "regps.gif",
+                    "img": "regps.jpg",
                     "question": "The block marked 'Rectifier' in the diagram is to:",
                     "choices": [
                         "turn the AC voltage from the transformer into a fluctuating DC voltage",
@@ -5044,7 +5044,7 @@
                 },
                 {
                     "id": 5,
-                    "img": "regps.gif",
+                    "img": "regps.jpg",
                     "question": "The block marked 'Regulator' in the diagram could consist of:",
                     "choices": [
                         "four silicon power diodes in a regulator configuration",
@@ -5056,7 +5056,7 @@
                 },
                 {
                     "id": 6,
-                    "img": "regps.gif",
+                    "img": "regps.jpg",
                     "question": "In the block marked regulator in the diagram below, a reversed diode may be present across the regulator.  Its job is to",
                     "choices": [
                         "Block negative voltages from appearing at the output",
@@ -5881,7 +5881,7 @@
             "questionSet": [
                 {
                     "id": 1,
-                    "img": "yagi.gif",
+                    "img": "yagi.jpg",
                     "question": "In this diagram the item U corresponds to the:",
                     "choices": [
                         "boom",
@@ -5893,7 +5893,7 @@
                 },
                 {
                     "id": 2,
-                    "img": "yagi.gif",
+                    "img": "yagi.jpg",
                     "question": "In this diagram the item V corresponds to the:",
                     "choices": [
                         "boom",
@@ -5905,7 +5905,7 @@
                 },
                 {
                     "id": 3,
-                    "img": "yagi.gif",
+                    "img": "yagi.jpg",
                     "question": "In this diagram the item X corresponds to the:",
                     "choices": [
                         "boom",
@@ -5917,7 +5917,7 @@
                 },
                 {
                     "id": 4,
-                    "img": "dipole.gif",
+                    "img": "dipole.jpg",
                     "question": "The antenna in this diagram has two equal lengths of wire shown as 'X' forming a dipole between insulators. The optimum operating frequency will be when the:",
                     "choices": [
                         "length X+X equals the signal wavelength",
@@ -5929,7 +5929,7 @@
                 },
                 {
                     "id": 5,
-                    "img": "dipole.gif",
+                    "img": "dipole.jpg",
                     "question": "The antenna in this diagram can be made to operate on several bands if the following item is installed at the points shown at 'X' in each wire:",
                     "choices": [
                         "a capacitor",
@@ -5941,7 +5941,7 @@
                 },
                 {
                     "id": 6,
-                    "img": "dipole.gif",
+                    "img": "dipole.jpg",
                     "question": "The physical length of the antenna shown in this diagram can be shortened and the electrical length maintained, if one of the following items is added at the points shown at 'X' in each wire:",
                     "choices": [
                         "an inductor",
@@ -7348,7 +7348,7 @@
             "questionSet": [
                 {
                     "id": 1,
-                    "img": "digista.gif",
+                    "img": "digista.jpg",
                     "question": "In the block diagram shown, the block designated \"modem\" is a:",
                     "choices": [
                         "modulator\/demodulator",
@@ -7360,7 +7360,7 @@
                 },
                 {
                     "id": 2,
-                    "img": "digista.gif",
+                    "img": "digista.jpg",
                     "question": "In the block diagram shown, the \"modem\":",
                     "choices": [
                         "monitors the demodulated signals",
