@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.2] - 2025-08-04
+
+- Fix reported issue #1 - Answer given in a question
+
 ## [1.0.1] - 2025-07-11
 
 - Update README.md
