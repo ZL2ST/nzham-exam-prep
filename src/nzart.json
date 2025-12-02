@@ -35,7 +35,7 @@
                     "question": "New Zealand's views on international radio regulatory matters are coordinated by the:",
                     "choices": [
                         "New Zealand Association of Radio Transmitters (NZART)",
-                        "Ministry of Business, Innovation, and Employment",
+                        "Ministry of Business, Innovation and Employment (MBIE)",
                         "International Amateur Radio Union (IARU)",
                         "Prime Minister's Office"
                     ],
@@ -70,7 +70,7 @@
                     "img": null,
                     "question": "The administration of the Amateur Service in New Zealand is by:",
                     "choices": [
-                        "Ministry of Business, Innovation, and Employment Radio Spectrum Management Group",
+                        "the Ministry of Business, Innovation and Employment Radio Spectrum Management Group",
                         "the Area Code administrators of New Zealand Post",
                         "the Radio Communications Division of the Ministry of Police",
                         "your local council public relations section"
@@ -80,19 +80,19 @@
                 {
                     "id": 7,
                     "img": null,
-                    "question": "An Amateur Station is a station:",
+                    "question": "You receive a conversation on a frequency where you are not party to the exchange. You may:",
                     "choices": [
-                        "in the public radio service",
-                        "using radiocommunications for a commercial purpose",
-                        "using equipment for training new radiocommunications operators",
-                        "in the Amateur Service"
+                        "Discuss this conversation, provided you don\u2019t share any identifying details",
+                        "Include it as part of a club newsletter article",
+                        "Discuss it with others, provided you do not use radio communications to do so",
+                        "You are not permitted to discuss or divulge any information you have received"
                     ],
                     "answer": 4
                 },
                 {
                     "id": 8,
                     "img": null,
-                    "question": "A General Amateur Operator Certificate of Competency can be inspected by an authorised officer from the Ministry of Business, Innovation, and Employment:",
+                    "question": "An authorised officer from the Ministry of Business, Innovation and Employment may inspect a General Amateur Operator\u2019s Certificate of Competency:",
                     "choices": [
                         "at any time",
                         "on any business day",
@@ -116,7 +116,7 @@
                 {
                     "id": 10,
                     "img": null,
-                    "question": "You must have a General Amateur Operator Certificate of Competency to:",
+                    "question": "You must have a General Amateur Operator\u2019s Certificate of Competency to:",
                     "choices": [
                         "transmit on public-service frequencies",
                         "retransmit shortwave broadcasts",
@@ -128,7 +128,7 @@
                 {
                     "id": 11,
                     "img": null,
-                    "question": "A New Zealand General Amateur Operator Certificate of Competency allows you to operate:",
+                    "question": "A New Zealand General Amateur Operator\u2019s Certificate of Competency allows you to operate:",
                     "choices": [
                         "anywhere in the world",
                         "anywhere in New Zealand and in any other country that recognises the Certificate",
@@ -140,7 +140,7 @@
                 {
                     "id": 12,
                     "img": null,
-                    "question": "With a General Amateur Operator Certificate of Competency you may operate transmitters in your station:",
+                    "question": "With a General Amateur Operator\u2019s Certificate of Competency you may operate transmitters in your station:",
                     "choices": [
                         "one at a time",
                         "one at a time, except for emergency communications",
@@ -154,7 +154,7 @@
                     "img": null,
                     "question": "You must keep the following document at your amateur station:",
                     "choices": [
-                        "your General Amateur Operator Certificate of Competency",
+                        "your General Amateur Operator\u2019s Certificate of Competency",
                         "a copy of the Rules and Regulations for the Amateur Service",
                         "a copy of the Radio Amateur's Handbook for instant reference",
                         "a chart showing the amateur radio bands"
@@ -166,7 +166,7 @@
                     "img": null,
                     "question": "An Amateur Station is one which is:",
                     "choices": [
-                        "operated by the holder of a General Amateur Operator Certificate of Competency on the amateur radio bands",
+                        "operated by the holder of a General Amateur Operator\u2019s Certificate of Competency on the amateur radio bands",
                         "owned and operated by a person who is not engaged professionally in radio communications",
                         "used exclusively to provide two-way communication in connection with activities of amateur sporting organisations",
                         "used primarily for emergency communications during floods, earthquakes and similar disasters."
@@ -179,7 +179,7 @@
                     "question": "If the qualified operator of an amateur radio station is absent overseas, the home station may be used by:",
                     "choices": [
                         "any member of the immediate family to maintain contact with only the qualified operator",
-                        "any person with an appropriate General Amateur Operator Certificate of Competency",
+                        "any person with an appropriate General Amateur Operator\u2019s Certificate of Competency",
                         "the immediate family to communicate with any amateur radio operator",
                         "the immediate family if a separate callsign for mobile use has been obtained by the absent operator"
                     ],
@@ -215,7 +215,7 @@
                     "question": "You may operate your amateur radio station somewhere in New Zealand for short periods away from the location entered in the administration's database:",
                     "choices": [
                         "only during times of emergency",
-                        "only after giving proper notice to the Ministry of Business, Innovation, and Employment",
+                        "only after giving proper notice to the Ministry of  Business, Innovation and Employment",
                         "during an approved emergency practice",
                         "whenever you want to"
                     ],
@@ -227,8 +227,8 @@
                     "question": "Before operating an amateur station in a motor vehicle, you must:",
                     "choices": [
                         "give the Land Transport Authority the vehicle's licence plate number",
-                        "inform the Ministry of Business, Innovation, and Employment",
-                        "hold a current General Amateur Operator Certificate of Competency",
+                        "inform the Ministry of Business, Innovation and Employment",
+                        "hold a current General Amateur Operator\u2019s Certificate of Competency",
                         "obtain an additional callsign"
                     ],
                     "answer": 3
@@ -236,11 +236,11 @@
                 {
                     "id": 20,
                     "img": null,
-                    "question": "An applicant for a New Zealand General Amateur Operator Certificate of Competency must first qualify by meeting the appropriate examination requirements. Application may then be made by:",
+                    "question": "An applicant for a New Zealand General Amateur Operator\u2019s Certificate of Competency must first qualify by meeting the appropriate examination requirements. Application may then be made by:",
                     "choices": [
                         "anyone except a representative of a foreign government",
                         "only a citizen or permanent resident of New Zealand",
-                        "anyone except an employee of the Ministry of Business, Innovation, and Employment",
+                        "anyone except an employee of the Ministry of Business, Innovation and Employment",
                         "anyone"
                     ],
                     "answer": 2
@@ -248,12 +248,12 @@
                 {
                     "id": 21,
                     "img": null,
-                    "question": "An amateur radio operator must have current New Zealand postal and email addresses so the Ministry of Business, Innovation, and Employment:",
+                    "question": "An amateur radio operator must have current New Zealand postal and email addresses so the Ministry of  Business, Innovation and Employment:",
                     "choices": [
                         "has a record of the location of each amateur station",
                         "can refund overpaid fees",
                         "can publish a callsign directory",
-                        "can send mail to the operator"
+                        "can contact the operator"
                     ],
                     "answer": 4
                 },
@@ -263,7 +263,7 @@
                     "question": "If you transmit from another amateur's station, the person responsible for its proper operation is:",
                     "choices": [
                         "both of you",
-                        "the other amateur (the station's owner)",
+                        "the other amateur (the station\u2019s owner)",
                         "you, the operator",
                         "the station owner, unless the station records show that you were the operator at the time"
                     ],
@@ -277,7 +277,7 @@
                         "allow another amateur to operate your station upon request",
                         "be present whenever the station is operated",
                         "be responsible for the proper operation of the station in accordance with the Radiocommunications Regulations",
-                        "notify the Ministry of Business, Innovation, and Employment if another amateur acts as the operator"
+                        "notify the Ministry of Business, Innovation and Employment if another amateur acts as the operator"
                     ],
                     "answer": 3
                 },
@@ -311,7 +311,7 @@
                     "question": "Unqualified persons in your family cannot transmit using your amateur station if they are alone with your equipment because they must:",
                     "choices": [
                         "not use your equipment without your permission",
-                        "hold a General Amateur Operator Certificate of Competency before they are allowed to be operators",
+                        "hold a General Amateur Operator\u2019s Certificate of Competency before they are allowed to be operators",
                         "first know how to use the right abbreviations and Q signals",
                         "first know the right frequencies and emissions for transmitting"
                     ],
@@ -320,19 +320,19 @@
                 {
                     "id": 27,
                     "img": null,
-                    "question": "Amateur radio repeater equipment and frequencies in New Zealand are co-ordinated by:",
+                    "question": "If you wanted to obtain a repeater license, which body within NZART would you submit your request to:",
                     "choices": [
-                        "the Ministry of Business, Innovation, and Employment",
+                        "the Ministry of Business, Innovation and Employment",
                         "NZART branches in the main cities",
                         "repeater trustees",
-                        "the NZART Frequency Management and Technical Advisory Group."
+                        "the Engineering and Licensing Group."
                     ],
                     "answer": 4
                 },
                 {
                     "id": 28,
                     "img": null,
-                    "question": "A qualified operator of an amateur radio station may permit anyone to:",
+                    "question": "A qualified operator of an amateur radio station is permitted to:",
                     "choices": [
                         "operate the station under direct supervision",
                         "send business traffic to any other station.",
@@ -344,7 +344,7 @@
                 {
                     "id": 29,
                     "img": null,
-                    "question": "The minimum age for a person to hold a General Amateur Operator Certificate of Competency is:",
+                    "question": "The minimum age for a person to hold a General Amateur Operator\u2019s Certificate of Competency is:",
                     "choices": [
                         "12 years",
                         "16 years",
@@ -356,10 +356,10 @@
                 {
                     "id": 30,
                     "img": null,
-                    "question": "Which of the following operating arrangements allows a NZ citizen holding a General Amateur Operator's Certificate of Competency and a call-sign to operate in many European countries:",
+                    "question": "Which of the following arrangements allows a NZ citizen holding a General Amateur Operators Certificate of Competency and a call-sign to operate in many European countries:",
                     "choices": [
                         "CEPT agreement",
-                        "IARP agreement",
+                        "IARU agreement",
                         "ITU reciprocal license",
                         "All of these choices are correct"
                     ],
@@ -368,7 +368,7 @@
                 {
                     "id": 31,
                     "img": null,
-                    "question": "The age when an amateur radio operator is required to surrender the General Amateur Operator Certificate of Competency is:",
+                    "question": "The age when an amateur radio operator is required to surrender the General Amateur Operator\u2019s Certificate of Competency is:",
                     "choices": [
                         "65 years",
                         "70 years",
@@ -395,21 +395,21 @@
                     "question": "The maximum power output permitted from an amateur station is:",
                     "choices": [
                         "that needed to overcome interference from other stations",
-                        "30 watt PEP",
+                        "30 watts PEP",
                         "specified in the amateur radio General User Radio Licence",
-                        "1000 watt mean power or 2000 watt PEP"
+                        "1000 watts mean power or 2000s watt PEP"
                     ],
                     "answer": 3
                 },
                 {
                     "id": 34,
                     "img": null,
-                    "question": "The transmitter power output for amateur stations at all times is:",
+                    "question": "The maximum transmitter power output for amateur stations at all times is:",
                     "choices": [
-                        "25 watt PEP minimum output",
+                        "25 watts PEP minimum output",
                         "that needed to overcome interference from other stations",
-                        "1000 watt PEP maximum",
-                        "the minimum power necessary to communicate and within the terms of the amateur radio GURL"
+                        "1000 watts PEP maximum",
+                        "Not more than the power limit listed in the GURL for that frequency band"
                     ],
                     "answer": 4
                 },
@@ -476,7 +476,7 @@
                 {
                     "id": 40,
                     "img": null,
-                    "question": "Before re-issuing, a relinquished callsign is normally kept for:",
+                    "question": "A relinquished callsign may normally be reissued after:",
                     "choices": [
                         "1 year",
                         "2 years",
@@ -488,7 +488,7 @@
                 {
                     "id": 41,
                     "img": null,
-                    "question": "A General Amateur Operator Certificate of Competency authorises the use of:",
+                    "question": "A General Amateur Operator\u2019s Certificate of Competency authorises the use of:",
                     "choices": [
                         "all amateur radio transmitting and receiving apparatus",
                         "a TV receiver",
@@ -500,10 +500,10 @@
                 {
                     "id": 42,
                     "img": null,
-                    "question": "General Amateur Operator Certificates of Competency and callsigns are issued pursuant to the Regulations by the:",
+                    "question": "General Amateur Operator\u2019s Certificates of Competency and callsigns are issued pursuant to the Regulations by the:",
                     "choices": [
                         "New Zealand Association of Radio Transmitters (NZART)",
-                        "Ministry of Business, Innovation, and Employment Approved Radio Examiners",
+                        "Ministry of Business, Innovation and Employment Approved Radio Examiners",
                         "Department of Internal Affairs",
                         "Prime Minister's Office"
                     ],
@@ -512,11 +512,11 @@
                 {
                     "id": 43,
                     "img": null,
-                    "question": "To replace a written copy of your General Amateur Operator Certificate of Competency you should:",
+                    "question": "To replace a written copy of your General Amateur Operator\u2019s Certificate of Competency you should:",
                     "choices": [
                         "Apply to an Approved Radio Examiner to re-sit the examination",
                         "Download an application form from the Department of Internal Affairs website",
-                        "Download an application form from the Ministry's website (or have an Approved Radio Examiner do this for you)",
+                        "Download an application form from the Ministry\u2019s website (or have an Approved Radio Examiner do this for you)",
                         "Download and print one from the official database (or have an Approved Radio Examiner do this for you)"
                     ],
                     "answer": 4
@@ -524,9 +524,9 @@
                 {
                     "id": 44,
                     "img": null,
-                    "question": "A General Amateur Operator Certificate of Competency holder must advise permanent changes to postal and email addresses and update the official database records within:",
+                    "question": "A holder of a General Amateur Operator\u2019s Certificate of Competency must advise permanent changes to postal and email addresses to Radio Spectrum Management  within:",
                     "choices": [
-                        "One Calendar month",
+                        "One calendar month",
                         "7 days",
                         "10 days",
                         "one year"
@@ -536,7 +536,7 @@
                 {
                     "id": 45,
                     "img": null,
-                    "question": "A General Amateur Operator Certificate of Competency:",
+                    "question": "A General Amateur Operator\u2019s Certificate of Competency:",
                     "choices": [
                         "expires after 6 months",
                         "contains the unique callsign(s) to be used by that operator",
@@ -560,7 +560,7 @@
                 {
                     "id": 47,
                     "img": null,
-                    "question": "A licence that provides for a given class of radio transmitter to be used without requiring a licence in the owner's own name is known as:",
+                    "question": "A licence that provides for a given class of radio transmitter to be used without requiring a licence in the owner\u2019s own name is known as:",
                     "choices": [
                         "a repeater licence",
                         "a general user radio licence",
@@ -572,12 +572,12 @@
                 {
                     "id": 48,
                     "img": null,
-                    "question": "The holder of a General Amateur Operator Certificate of Competency may permit anyone to:",
+                    "question": "The holder of a General Amateur Operator\u2019s Certificate of Competency may permit anyone to:",
                     "choices": [
                         "use an amateur radio station to communicate with other radio amateurs",
                         "pass brief messages of a personal nature provided no fees or other consideration are requested or accepted",
                         "operate the amateur station under the supervision and in the presence of a qualified operator",
-                        "take part in communications only if prior written permission is received from the Ministry of Business, Innovation, and Employment"
+                        "take part in communications only if prior written permission is received from the Ministry of Business, Innovation and Employment."
                     ],
                     "answer": 2
                 },
@@ -600,7 +600,7 @@
                     "choices": [
                         "a simultaneous communication between three operators",
                         "the transmission of commercial or secret messages",
-                        "messages to or on behalf of non-licensed people or organisations",
+                        "messages to or on behalf of other people or organisations",
                         "none of the above"
                     ],
                     "answer": 3
@@ -644,7 +644,7 @@
                 {
                     "id": 54,
                     "img": null,
-                    "question": "Messages from an amateur station in one of the following are expressly forbidden:",
+                    "question": "Messages between amateur stations in one of the following are expressly forbidden:",
                     "choices": [
                         "ASCII",
                         "International No. 2 code",
@@ -670,7 +670,7 @@
                     "img": null,
                     "question": "When interference to the reception of radiocommunications is caused by the operation of an amateur station, the station operator:",
                     "choices": [
-                        "must immediately comply with any action required by the Ministry of Business, Innovation, and Employment to prevent the interference",
+                        "must immediately comply with any action required by the MBIE to prevent the interference",
                         "may continue to operate with steps taken to reduce the interference when the station operator can afford it",
                         "may continue to operate without restrictions",
                         "is not obligated to take any action"
@@ -692,7 +692,7 @@
                 {
                     "id": 58,
                     "img": null,
-                    "question": "After qualifying and gaining a General Amateur Operator Certificate of Competency you are permitted to:",
+                    "question": "After qualifying and gaining a General Amateur Operator\u2019s Certificate of Competency you are permitted to:",
                     "choices": [
                         "operate on any frequency in the entire radio spectrum",
                         "first operate for three months on amateur radio bands below 5 MHz and bands above 25 MHz to log fifty or more contacts",
@@ -732,7 +732,7 @@
                     "choices": [
                         "must regularly operate using dry batteries",
                         "should use shortened antennas",
-                        "may train for and support disaster relief activities",
+                        "are encouraged to train for and support disaster relief activities",
                         "must always have solar-powered equipment in reserve"
                     ],
                     "answer": 3
@@ -740,7 +740,7 @@
                 {
                     "id": 62,
                     "img": null,
-                    "question": "Your General Amateur Operator Certificate of Competency permits you to:",
+                    "question": "Your General Amateur Operator\u2019s Certificate of Competency permits you to:",
                     "choices": [
                         "work citizen band stations",
                         "establish and operate an earth station in the amateur satellite service",
@@ -752,7 +752,7 @@
                 {
                     "id": 63,
                     "img": null,
-                    "question": "You hear a station using the callsign 'VK3XYZ stroke ZL' on your local VHF repeater. This is:",
+                    "question": "You hear a station using the callsign \u201cVK3XYZ stroke ZL\u201d on your local VHF repeater. This is:",
                     "choices": [
                         "a callsign not authorised for use in New Zealand",
                         "a confused illegal operator",
@@ -764,7 +764,7 @@
                 {
                     "id": 64,
                     "img": null,
-                    "question": "The abbreviation 'HF' refers to the radio spectrum between:",
+                    "question": "The abbreviation \u201cHF\u201d refers to the radio spectrum between:",
                     "choices": [
                         "2 MHz and 10 MHz",
                         "3 MHz and 30 MHz",
@@ -788,7 +788,7 @@
                 {
                     "id": 66,
                     "img": null,
-                    "question": "The abbreviation 'VHF' refers to the radio spectrum between:",
+                    "question": "The abbreviation \u201cVHF\u201d refers to the radio spectrum between:",
                     "choices": [
                         "2 MHz and 10 MHz",
                         "3 MHz and 30 MHz",
@@ -815,7 +815,7 @@
                     "question": "An amateur station may be closed down at any time by:",
                     "choices": [
                         "a demand from an irate neighbour experiencing television interference",
-                        "a demand from an authorised official of the Ministry of Business, Innovation, and Employment",
+                        "a demand from an authorised official of the Ministry of Business, Innovation and Employment",
                         "an official from your local council",
                         "anyone until your aerials are made less unsightly"
                     ],
@@ -824,7 +824,7 @@
                 {
                     "id": 69,
                     "img": null,
-                    "question": "A General Amateur Operator Certificate of Competency:",
+                    "question": "A General Amateur Operator\u2019s Certificate of Competency:",
                     "choices": [
                         "can never be revoked",
                         "gives a waiver over copyright",
@@ -881,7 +881,7 @@
                 {
                     "id": 3,
                     "img": null,
-                    "question": "The frequency limits of the '80 metre band' are:",
+                    "question": "The frequency limits of the \u201c80 metre band\u201d are:",
                     "choices": [
                         "3.50 to 4.0 MHz",
                         "3.50 to 3.90 MHz",
@@ -893,7 +893,7 @@
                 {
                     "id": 4,
                     "img": null,
-                    "question": "In New Zealand the frequency limits of the '40 metre band' are:",
+                    "question": "In New Zealand the frequency limits of the \u201c40 metre band\u201d are:",
                     "choices": [
                         "7.00 to 7.10 MHz",
                         "7.00 to 7.15 MHz",
@@ -905,7 +905,7 @@
                 {
                     "id": 5,
                     "img": null,
-                    "question": "The frequency limits of the '20 metre band' are:",
+                    "question": "The frequency limits of the \u201c20 metre band\u201d are:",
                     "choices": [
                         "14.00 to 14.10 MHz",
                         "14.00 to 14.45 MHz",
@@ -917,7 +917,7 @@
                 {
                     "id": 6,
                     "img": null,
-                    "question": "The frequency limits of the '15 metre band' are:",
+                    "question": "The frequency limits of the \u201c15 metre band\u201d are:",
                     "choices": [
                         "21.00 to 21.35 MHz",
                         "21.00 to 21.40 MHz",
@@ -929,7 +929,7 @@
                 {
                     "id": 7,
                     "img": null,
-                    "question": "The frequency limits of the '10 metre band' are:",
+                    "question": "The frequency limits of the \u201c10 metre band\u201d are:",
                     "choices": [
                         "28.00 to 28.35 MHz",
                         "28.00 to 28.40 MHz",
@@ -941,7 +941,7 @@
                 {
                     "id": 8,
                     "img": null,
-                    "question": "The frequency limits of the '2 metre band' are:",
+                    "question": "The frequency limits of the \u201c2 metre band\u201d are:",
                     "choices": [
                         "144 to 149 MHz",
                         "144 to 148 MHz",
@@ -953,7 +953,7 @@
                 {
                     "id": 9,
                     "img": null,
-                    "question": "The frequency limits of the '70 centimetre band' are:",
+                    "question": "The frequency limits of the \u201c70 centimetre band\u201d are:",
                     "choices": [
                         "430 to 440 MHz",
                         "430 to 450 MHz",
@@ -989,7 +989,7 @@
                 {
                     "id": 12,
                     "img": null,
-                    "question": "Two bands where amateur satellites may operate are:",
+                    "question": "Two bands where amateur satellites may operate are",
                     "choices": [
                         "28.0 to 29.7 MHz and 144.0 to 146.0 MHz",
                         "21.0 to 21.1 MHz and 146.0 to 148.0 MHz",
@@ -1001,7 +1001,7 @@
                 {
                     "id": 13,
                     "img": null,
-                    "question": "The amateur service is authorised to share a portion of which of the following bands that are heavily used by non-amateur devices:",
+                    "question": "The amateur service is authorised to share a portion of which of the following bands that is heavily used by other non-amateur devices:",
                     "choices": [
                         "2400 to 2500 MHz",
                         "1240 to 1300 MHz",
@@ -1016,7 +1016,7 @@
                     "question": "The following amateur radio band is shared with other services:",
                     "choices": [
                         "14.0 to 14.35 MHz",
-                        "7.2 to 7.3 MHz",
+                        "7.1 to 7.3 MHz",
                         "18.068 to 18.168 MHz",
                         "144.0 to 146.0 MHz"
                     ],
@@ -1087,7 +1087,7 @@
                     "img": null,
                     "question": "This rule applies if two amateur radio stations want to use the same frequency:",
                     "choices": [
-                        "the operator with the newer qualification must yield the frequency to the more experienced operator",
+                        "the operator with the newer licence must yield the frequency to the more experienced licensee",
                         "the station with the lower power output must yield the frequency to the station with the higher power output",
                         "both stations have an equal right to operate on the frequency, the second-comer courteously giving way after checking that the frequency is in use",
                         "stations in ITU Regions 1 and 2 must yield the frequency to stations in Region 3"
@@ -1178,7 +1178,7 @@
                 {
                     "id": 7,
                     "img": null,
-                    "question": "A common use for a magnet is in:",
+                    "question": "A common use for a permanent magnet is:",
                     "choices": [
                         "A computer speaker",
                         "An optical mouse",
@@ -1243,14 +1243,14 @@
                         "p-channel FET",
                         "carbon resistor",
                         "germanium diode",
-                        "lead acid battery"
+                        "lithium ion battery"
                     ],
                     "answer": 4
                 },
                 {
                     "id": 13,
                     "img": null,
-                    "question": "An important difference between a common torch battery and a lead acid battery is that only the lead acid battery:",
+                    "question": "An important difference between an AA alkaline battery and a lead acid battery is that only the lead acid battery:",
                     "choices": [
                         "has two terminals",
                         "contains an electrolyte",
@@ -1369,10 +1369,10 @@
                     "img": null,
                     "question": "One kilohm is:",
                     "choices": [
-                        "10 ohm",
+                        "10 ohms",
                         "0.01 ohm",
                         "0.001 ohm",
-                        "1000 ohm"
+                        "1000 ohms"
                     ],
                     "answer": 4
                 },
@@ -1381,10 +1381,10 @@
                     "img": null,
                     "question": "One kilovolt is equal to:",
                     "choices": [
-                        "10 volt",
-                        "100 volt",
-                        "1000 volt",
-                        "10,000 volt"
+                        "10 volts",
+                        "100 volts",
+                        "1000 volts",
+                        "10,000 volts"
                     ],
                     "answer": 3
                 },
@@ -1393,10 +1393,10 @@
                     "img": null,
                     "question": "One quarter of one ampere may be written as:",
                     "choices": [
-                        "250 microampere",
-                        "0.5 ampere",
-                        "0.25 milliampere",
-                        "250 milliampere"
+                        "250 microamperes",
+                        "0.5 amperes",
+                        "0.25 milliamperes",
+                        "250 milliamperes"
                     ],
                     "answer": 4
                 },
@@ -1479,17 +1479,17 @@
         {
             "id": 5,
             "topic": "Ohm's Law",
-            "slug": "ohms-law",
+            "slug": "ohm-s-law",
             "questionSet": [
                 {
                     "id": 1,
                     "img": null,
                     "question": "The voltage across a resistor carrying current can be calculated using the formula:",
                     "choices": [
-                        "E = I + R  [voltage equals current plus resistance]",
-                        "E = I - R  [voltage equals current minus resistance]",
-                        "E = I x R  [voltage equals current times resistance]",
-                        "E = I \/ R  [voltage equals current divided by resistance]"
+                        "E = I + R [voltage equals current plus resistance]",
+                        "E = I - R [voltage equals current minus resistance]",
+                        "E = I x R [voltage equals current times resistance]",
+                        "E = I / R [voltage equals current divided by resistance]"
                     ],
                     "answer": 3
                 },
@@ -1498,29 +1498,29 @@
                     "img": null,
                     "question": "A 10 mA current is measured in a 500 ohm resistor. The voltage across the resistor will be:",
                     "choices": [
-                        "5 volt",
-                        "50 volt",
-                        "500 volt",
-                        "5000 volt"
+                        "5 volts",
+                        "50 volts",
+                        "500 volts",
+                        "5000 volts"
                     ],
                     "answer": 1
                 },
                 {
                     "id": 3,
                     "img": null,
-                    "question": "The value of a resistor to drop 100 volt with a current of 0.8 milliampere is:",
+                    "question": "The value of a resistor to drop 100 volts with a current of 0.8 milliampere is:",
                     "choices": [
-                        "125 ohm",
-                        "125 kilohm",
-                        "1250 ohm",
-                        "1.25 kilohm"
+                        "125 ohms",
+                        "125 kilohms",
+                        "1250 ohms",
+                        "1.25 kilohms"
                     ],
                     "answer": 2
                 },
                 {
                     "id": 4,
                     "img": null,
-                    "question": "I = E\/R is a mathematical equation describing:",
+                    "question": "I = E/R is a mathematical equation describing:",
                     "choices": [
                         "Ohm's Law",
                         "Thevenin's Theorem",
@@ -1532,58 +1532,58 @@
                 {
                     "id": 5,
                     "img": null,
-                    "question": "The voltage to cause a current of 4.4 ampere in a 50 ohm resistance is:",
+                    "question": "The voltage to cause a current of 4.4 amperes in a 50 ohm resistance is:",
                     "choices": [
-                        "2220 volt",
-                        "220 volt",
-                        "22.0 volt",
-                        "0.222 volt"
+                        "2220 volts",
+                        "220 volts",
+                        "22.0 volts",
+                        "0.222 volts"
                     ],
                     "answer": 2
                 },
                 {
                     "id": 6,
                     "img": null,
-                    "question": "A current of 2 ampere flows through a 16 ohm resistance. The applied voltage is:",
+                    "question": "A current of 2 amperes flows through a 16 ohm resistance. The applied voltage is:",
                     "choices": [
-                        "8 volt",
-                        "14 volt",
-                        "18 volt",
-                        "32 volt"
+                        "8 volt s",
+                        "14 volts",
+                        "18 volt s",
+                        "32 volts"
                     ],
                     "answer": 4
                 },
                 {
                     "id": 7,
                     "img": null,
-                    "question": "A current of 5 ampere in a 50 ohm resistance produces a potential difference of:",
+                    "question": "A current of 5 amperes in a 50 ohm resistance produces a potential difference of:",
                     "choices": [
-                        "20 volt",
-                        "45 volt",
-                        "55 volt",
-                        "250 volt"
+                        "20 volts",
+                        "45 volts",
+                        "55 volts",
+                        "250 volts"
                     ],
                     "answer": 4
                 },
                 {
                     "id": 8,
                     "img": null,
-                    "question": "This voltage is needed to cause a current of 200 mA to flow in a lamp of 25 ohm resistance:",
+                    "question": "This voltage is needed to cause a current of  200 mA to flow in a lamp of  25 ohm resistance:",
                     "choices": [
-                        "5 volt",
-                        "8 volt",
-                        "175 volt",
-                        "225 volt"
+                        "5 volts",
+                        "8 volts",
+                        "175 volts",
+                        "225 volts"
                     ],
                     "answer": 1
                 },
                 {
                     "id": 9,
                     "img": null,
-                    "question": "A current of 0.5 ampere flows through a resistance when 6 volt is applied. To change the current to 0.25 ampere the voltage must be:",
+                    "question": "A current of 0.5 amperes flows through a resistance when 6 volts is applied. To change the current to 0.25 amperes the voltage must be:",
                     "choices": [
-                        "increased to 12 volt",
-                        "reduced to 3 volt",
+                        "increased to 12 volts",
+                        "reduced to 3 volts",
                         "held constant",
                         "reduced to zero"
                     ],
@@ -1594,10 +1594,10 @@
                     "img": null,
                     "question": "The current flowing through a resistor can be calculated by using the formula:",
                     "choices": [
-                        "I = E x R  [current equals voltage times resistance]",
-                        "I = E \/ R  [current equals voltage divided by resistance]",
-                        "I = E + R  [current equals voltage plus resistance]",
-                        "I = E - R  [current equals voltage minus resistance]"
+                        "I = E x R [current equals voltage times resistance]",
+                        "I = E / R [current equals voltage divided by resistance]",
+                        "I = E + R [current equals voltage plus resistance]",
+                        "I = E - R [current equals voltage minus resistance]"
                     ],
                     "answer": 2
                 },
@@ -1606,8 +1606,8 @@
                     "img": null,
                     "question": "When an 8 ohm resistor is connected across a 12 volt supply the current flow is:",
                     "choices": [
-                        "12 \/ 8 amps",
-                        "8 \/ 12 amps",
+                        "12 / 8 amps",
+                        "8 / 12 amps",
                         "12 - 8 amps",
                         "12 + 8 amps"
                     ],
@@ -1616,12 +1616,12 @@
                 {
                     "id": 12,
                     "img": null,
-                    "question": "A circuit has a total resistance of 100 ohm and 50 volt is applied across it. The current flow will be:",
+                    "question": "A circuit has a total resistance of 100 ohms and 50 volts is applied across it. The current flow will be:",
                     "choices": [
-                        "50 mA",
-                        "500 mA",
-                        "2 ampere",
-                        "20 ampere"
+                        "50 milliamperes",
+                        "500 milliamperes",
+                        "2 amperes",
+                        "20 amperes"
                     ],
                     "answer": 2
                 },
@@ -1630,22 +1630,22 @@
                     "img": null,
                     "question": "The following formula gives the resistance of a circuit:",
                     "choices": [
-                        "R = I \/ E  [resistance equals current divided by voltage]",
-                        "R = E x I  [resistance equals voltage times current",
-                        "R = E \/ R  [resistance equals voltage divided by resistance]",
-                        "R = E \/ I  [resistance equals voltage divided by current]"
+                        "R = I / E [resistance equals current divided by voltage]",
+                        "R = E x I [resistance equals voltage times current",
+                        "R = E / R [resistance equals voltage divided by resistance]",
+                        "R = E / I [resistance equals voltage divided by current]"
                     ],
                     "answer": 4
                 },
                 {
                     "id": 14,
                     "img": null,
-                    "question": "A resistor with 10 volt applied across it and passing a current of 1 mA has a value of:",
+                    "question": "A resistor with 10 volts applied across it and passing a current of 1 mA has a value of:",
                     "choices": [
-                        "10 ohm",
-                        "100 ohm",
+                        "10 ohm s",
+                        "100 ohms",
                         "1 kilohm",
-                        "10 kilohm"
+                        "10 kilohms"
                     ],
                     "answer": 4
                 },
@@ -1654,17 +1654,17 @@
                     "img": null,
                     "question": "If a 3 volt battery causes 300 mA to flow in a circuit, the circuit resistance is:",
                     "choices": [
-                        "10 ohm",
-                        "9 ohm",
-                        "5 ohm",
-                        "3 ohm"
+                        "10 ohms",
+                        "9 ohms",
+                        "5 ohms",
+                        "3 ohms"
                     ],
                     "answer": 1
                 },
                 {
                     "id": 16,
                     "img": null,
-                    "question": "A current of 0.5 ampere flows through a resistor when 12 volt is applied. The value of the resistor is:",
+                    "question": "A current of 0.5 amperes flows through a resistor when 12 volts is applied. The value of the resistor is:",
                     "choices": [
                         "6 ohms",
                         "12.5 ohms",
@@ -1678,10 +1678,10 @@
                     "img": null,
                     "question": "The resistor which gives the greatest opposition to current flow is:",
                     "choices": [
-                        "230 ohm",
-                        "1.2 kilohm",
-                        "1600 ohm",
-                        "0.5 megohm"
+                        "230 ohms",
+                        "1.2 kilohms",
+                        "1600 ohms",
+                        "0.5 megohms"
                     ],
                     "answer": 4
                 },
@@ -1700,12 +1700,12 @@
                 {
                     "id": 19,
                     "img": null,
-                    "question": "If a 12 volt battery supplies 0.15 ampere to a circuit, the circuit's resistance is:",
+                    "question": "If a 12 volt battery supplies 0.15 amperes to a circuit, the circuit's resistance is:",
                     "choices": [
-                        "0.15 ohm",
-                        "1.8 ohm",
-                        "12 ohm",
-                        "80 ohm"
+                        "0.15 ohms",
+                        "1.8 ohms",
+                        "12 ohms",
+                        "80 ohms"
                     ],
                     "answer": 4
                 },
@@ -1747,10 +1747,10 @@
                     "img": null,
                     "question": "Two resistors are connected in parallel and are connected across a 40 volt battery. If each resistor is 1000 ohms, the total battery current is:",
                     "choices": [
-                        "40 ampere",
-                        "40 milliampere",
-                        "80 ampere",
-                        "80 milliampere"
+                        "40 amperes",
+                        "40 milliamperes",
+                        "80 amperes",
+                        "80 milliamperes"
                     ],
                     "answer": 4
                 },
@@ -1769,7 +1769,7 @@
                 {
                     "id": 4,
                     "img": null,
-                    "question": "One way to operate a 3 volt bulb from a 9 volt supply is to connect it in:",
+                    "question": "One way to operate a 3 volt lamp from a 9 volt supply is to connect it in:",
                     "choices": [
                         "series with the supply",
                         "parallel with the supply",
@@ -1810,7 +1810,7 @@
                         "12 x 240",
                         "240 + 12",
                         "240 - 12",
-                        "240 \/ 12"
+                        "240 / 12"
                     ],
                     "answer": 4
                 },
@@ -1819,29 +1819,29 @@
                     "img": null,
                     "question": "Three 10,000 ohm resistors are connected in series across a 90 volt supply. The voltage drop across one of the resistors is:",
                     "choices": [
-                        "30 volt",
-                        "60 volt",
-                        "90 volt",
-                        "15.8 volt"
+                        "30 volts",
+                        "60 volts",
+                        "90 volts",
+                        "15.8 volts"
                     ],
                     "answer": 1
                 },
                 {
                     "id": 9,
                     "img": null,
-                    "question": "Two resistors are connected in parallel. R1 is 75 ohm and R2 is 50 ohm. The total resistance of this parallel circuit is:",
+                    "question": "Two resistors are connected in parallel. R1 is 75 ohms and R2 is 50 ohms. The total resistance of this parallel circuit is:",
                     "choices": [
-                        "10 ohm",
-                        "70 ohm",
-                        "30 ohm",
-                        "40 ohm"
+                        "10 ohms",
+                        "70 ohms",
+                        "30 ohms",
+                        "40 ohms"
                     ],
                     "answer": 3
                 },
                 {
                     "id": 10,
                     "img": null,
-                    "question": "A dry cell has an open circuit voltage of 1.5 volt. When supplying a large current the voltage drops to 1.2 volt. This is due to the cell's:",
+                    "question": "A dry cell has an open circuit voltage of 1.5 volts. When supplying a large current the voltage drops to 1.2 volts. This is due to the cell's:",
                     "choices": [
                         "internal resistance",
                         "voltage capacity",
@@ -1855,10 +1855,10 @@
                     "img": null,
                     "question": "A 6 ohm resistor is connected in parallel with a 30 ohm resistor. The total resistance of the combination is:",
                     "choices": [
-                        "5 ohm",
-                        "8 ohm",
-                        "24 ohm",
-                        "35 ohm"
+                        "5 ohms",
+                        "8 ohms",
+                        "24 ohms",
+                        "35 ohms"
                     ],
                     "answer": 1
                 },
@@ -1889,12 +1889,12 @@
                 {
                     "id": 14,
                     "img": null,
-                    "question": "Resistors of 10, 270, 3900, and 100 ohm are connected in series. The total resistance is:",
+                    "question": "Resistors of 10, 270, 3900, and 100 ohms are connected in series. The total resistance is:",
                     "choices": [
-                        "9 ohm",
-                        "3900 ohm",
-                        "4280 ohm",
-                        "10 ohm"
+                        "9 ohms",
+                        "3900 ohms",
+                        "4280 ohms",
+                        "10 ohms"
                     ],
                     "answer": 3
                 },
@@ -1903,10 +1903,10 @@
                     "img": null,
                     "question": "This combination of series resistors could replace a single 120 ohm resistor:",
                     "choices": [
-                        "five 24 ohm",
-                        "six 22 ohm",
-                        "two 62 ohm",
-                        "five 100 ohm"
+                        "five 24 ohms",
+                        "six 22 ohms",
+                        "two 62 ohms",
+                        "five 100 ohms"
                     ],
                     "answer": 1
                 },
@@ -1915,10 +1915,10 @@
                     "img": null,
                     "question": "If a 2.2 megohm and a 100 kilohm resistor are connected in series, the total resistance is:",
                     "choices": [
-                        "2.1 megohm",
-                        "2.11 megohm",
-                        "2.21 megohm",
-                        "2.3 megohm"
+                        "2.1 megohms",
+                        "2.11 megohms",
+                        "2.21 megohms",
+                        "2.3 megohms"
                     ],
                     "answer": 4
                 },
@@ -1929,8 +1929,8 @@
                     "choices": [
                         "R",
                         "10R",
-                        "10\/R",
-                        "R\/10"
+                        "10/R",
+                        "R/10"
                     ],
                     "answer": 4
                 },
@@ -1939,22 +1939,22 @@
                     "img": null,
                     "question": "The total resistance of four 68 ohm resistors wired in parallel is:",
                     "choices": [
-                        "12 ohm",
-                        "17 ohm",
-                        "34 ohm",
-                        "272 ohm"
+                        "12 ohms",
+                        "17 ohms",
+                        "34 ohms",
+                        "272 ohms"
                     ],
                     "answer": 2
                 },
                 {
                     "id": 19,
                     "img": null,
-                    "question": "Resistors of 68 ohm, 47 kilohm, 560 ohm and 10 ohm are connected in parallel. The total resistance is:",
+                    "question": "Resistors of 68 ohms, 47 kilohms, 560 ohms and 10 ohms are connected in parallel. The total resistance is:",
                     "choices": [
-                        "less than 10 ohm",
-                        "between 68 and 560 ohm",
-                        "between 560 and and 47 kilohm",
-                        "greater than 47 kilohm"
+                        "less than 10 ohms",
+                        "between 68 and 560 ohms",
+                        "between 560 and 47 kilohms",
+                        "greater than 47 kilohms"
                     ],
                     "answer": 1
                 },
@@ -1975,10 +1975,10 @@
                     "img": null,
                     "question": "Two 120 ohm resistors are arranged in parallel to replace a faulty resistor. The faulty resistor had an original value of:",
                     "choices": [
-                        "15 ohm",
-                        "30 ohm",
-                        "60 ohm",
-                        "120 ohm"
+                        "15 ohms",
+                        "30 ohms",
+                        "60 ohms",
+                        "120 ohms"
                     ],
                     "answer": 3
                 },
@@ -1999,17 +1999,17 @@
                     "img": null,
                     "question": "The smallest resistance that can be made with five 1 k ohm resistors is:",
                     "choices": [
-                        "50 ohm by arranging them in series",
-                        "50 ohm by arranging them in parallel",
-                        "200 ohm by arranging them in series",
-                        "200 ohm by arranging them in parallel"
+                        "50 ohms by arranging them in series",
+                        "50 ohms by arranging them in parallel",
+                        "200 ohms by arranging them in series",
+                        "200 ohms by arranging them in parallel"
                     ],
                     "answer": 4
                 },
                 {
                     "id": 24,
                     "img": null,
-                    "question": "The following combination of 28 ohm resistors has a total resistance of 42 ohm:",
+                    "question": "The following combination of 28 ohm resistors has a total resistance of 42 ohms:",
                     "choices": [
                         "three resistors in series",
                         "three resistors in parallel",
@@ -2035,10 +2035,10 @@
                     "img": null,
                     "question": "A 5 ohm and a 10 ohm resistor are wired in series and connected to a 15 volt power supply. The current flowing from the power supply is:",
                     "choices": [
-                        "0.5 ampere",
+                        "0.5 amperes",
                         "1 ampere",
-                        "2 ampere",
-                        "15 ampere"
+                        "2 amperes",
+                        "15 amperes"
                     ],
                     "answer": 2
                 },
@@ -2059,12 +2059,12 @@
                     "img": null,
                     "question": "Two 33 ohm resistors are connected in series with a power supply. If the current flowing is 100 mA, the voltage across one of the resistors is:",
                     "choices": [
-                        "66 volt",
-                        "33 volt",
-                        "3.3 volt",
-                        "1 volt"
+                        "66 volts",
+                        "33 volts",
+                        "6.6 volts",
+                        "3.3 volts"
                     ],
-                    "answer": 3
+                    "answer": 4
                 },
                 {
                     "id": 29,
@@ -2081,12 +2081,12 @@
                 {
                     "id": 30,
                     "img": null,
-                    "question": "Three 500 ohm resistors are wired in series. Short-circuiting the centre resistor will change the value of the network from:",
+                    "question": "Three 500 ohm resistors are wired in series. Short-circuiting the center resistor will change the value of the network from:",
                     "choices": [
-                        "1500 ohm to 1000 ohm",
-                        "500 ohm to 1000 ohm",
-                        "1000 ohm to 500 ohm",
-                        "1000 ohm to 1500 ohm"
+                        "1500 ohms to 1000 ohms",
+                        "500 ohms to 1000 ohms",
+                        "1000 ohms to 500 ohms",
+                        "1000 ohms to 1500 ohms"
                     ],
                     "answer": 1
                 }
@@ -2102,24 +2102,24 @@
                 {
                     "id": 1,
                     "img": null,
-                    "question": "A transmitter power amplifier requires 30 mA at 300 volt. The DC input power is:",
+                    "question": "A transmitter power amplifier requires 30 mA at 300 volts. The DC input power is:",
                     "choices": [
-                        "300 watt",
-                        "9000 watt",
-                        "9 watt",
-                        "6 watt"
+                        "300 watts",
+                        "9000 watts",
+                        "9 watts",
+                        "6 watts"
                     ],
                     "answer": 3
                 },
                 {
                     "id": 2,
                     "img": null,
-                    "question": "The DC input power of a transmitter operating at 12 volt and drawing 500 milliamp would be:",
+                    "question": "The DC input power of a transmitter operating at 12 volt and drawing 500 milliamps would be:",
                     "choices": [
-                        "6 watt",
-                        "12 watt",
-                        "20 watt",
-                        "500 watt"
+                        "6 watts",
+                        "12 watts",
+                        "20 watts",
+                        "500 watts"
                     ],
                     "answer": 1
                 },
@@ -2128,10 +2128,10 @@
                     "img": null,
                     "question": "When two 500 ohm 1 watt resistors are connected in series, the maximum total power that can be dissipated by both resistors is:",
                     "choices": [
-                        "4 watt",
-                        "2 watt",
+                        "4 watts",
+                        "2 watts",
                         "1 watt",
-                        "1\/2 watt"
+                        "1/2 watt"
                     ],
                     "answer": 2
                 },
@@ -2140,10 +2140,10 @@
                     "img": null,
                     "question": "When two 1000 ohm 5 watt resistors are connected in parallel, they can dissipate a maximum total power of:",
                     "choices": [
-                        "40 watt",
-                        "20 watt",
-                        "10 watt",
-                        "5 watt"
+                        "40 watts",
+                        "20 watts",
+                        "10 watts",
+                        "5 watts"
                     ],
                     "answer": 3
                 },
@@ -2153,57 +2153,57 @@
                     "question": "The current in a 100 kilohm resistor is 10 mA. The power dissipated is:",
                     "choices": [
                         "1 watt",
-                        "10 watt",
-                        "100 watt",
-                        "10,000 watt"
+                        "10 watts",
+                        "100 watts",
+                        "10,000 watts"
                     ],
                     "answer": 2
                 },
                 {
                     "id": 6,
                     "img": null,
-                    "question": "A current of 500 milliamp passes through a 1000 ohm resistance. The power dissipated is:",
+                    "question": "A current of 500 milliamps passes through a 1000 ohm resistance. The power dissipated is:",
                     "choices": [
-                        "0.25 watt",
-                        "2.5 watt",
-                        "25 watt",
-                        "250 watt"
+                        "0.25 watts",
+                        "2.5 watts",
+                        "25 watts",
+                        "250 watts"
                     ],
                     "answer": 4
                 },
                 {
                     "id": 7,
                     "img": null,
-                    "question": "A 20 ohm resistor carries a current of 0.25 ampere. The power dissipated is:",
+                    "question": "A 20 ohm resistor carries a current of 0.25 amperes. The power dissipated is:",
                     "choices": [
-                        "1.25 watt",
-                        "5 watt",
-                        "2.50 watt",
-                        "10 watt"
+                        "1.25 watts",
+                        "5 watts",
+                        "2.50 watts",
+                        "10 watts"
                     ],
                     "answer": 1
                 },
                 {
                     "id": 8,
                     "img": null,
-                    "question": "If 200 volt is applied to a 2000 ohm resistor, the resistor will dissipate:",
+                    "question": "If  200 volts is applied to a 2000 ohm resistor, the resistor will dissipate:",
                     "choices": [
-                        "20 watt",
-                        "30 watt",
-                        "10 watt",
-                        "40 watt"
+                        "20 watts",
+                        "30 watts",
+                        "10 watts",
+                        "40 watts"
                     ],
                     "answer": 1
                 },
                 {
                     "id": 9,
                     "img": null,
-                    "question": "The power delivered to an antenna is 500 watt. The effective antenna resistance is 20 ohm. The antenna current is:",
+                    "question": "The power delivered to an antenna is 500 watts. The effective antenna resistance is 20 ohms. The antenna current is:",
                     "choices": [
-                        "25 amp",
-                        "2.5 amp",
-                        "10 amp",
-                        "5 amp"
+                        "25 amps",
+                        "2.5 amps",
+                        "10 amps",
+                        "5 amps"
                     ],
                     "answer": 4
                 },
@@ -2251,7 +2251,7 @@
                         "0.01 watt",
                         "0.1 watt",
                         "1 watt",
-                        "10 watt"
+                        "10 watts"
                     ],
                     "answer": 2
                 },
@@ -2260,22 +2260,22 @@
                     "img": null,
                     "question": "If two 10 ohm resistors are connected in series with a 10 volt battery, the battery load is:",
                     "choices": [
-                        "5 watt",
-                        "10 watt",
-                        "20 watt",
-                        "100 watt"
+                        "5 watts",
+                        "10 watts",
+                        "20 watts",
+                        "100 watts"
                     ],
                     "answer": 1
                 },
                 {
                     "id": 15,
                     "img": null,
-                    "question": "Each of 9 resistors in a circuit is dissipating 4 watt. If the circuit operates from a 12 volt supply, the total current flowing in the circuit is:",
+                    "question": "Each of 9 resistors in a series circuit is dissipating 4 watts. If the circuit operates from a 12 volt supply, the total current flowing in the circuit is:",
                     "choices": [
-                        "48 ampere",
-                        "36 ampere",
-                        "9 ampere",
-                        "3 ampere"
+                        "48 amperes",
+                        "36 amperes",
+                        "9 amperes",
+                        "3 amperes"
                     ],
                     "answer": 4
                 },
@@ -2284,22 +2284,22 @@
                     "img": null,
                     "question": "Three 18 ohm resistors are connected in parallel across a 12 volt supply. The total power dissipation of the resistor load is:",
                     "choices": [
-                        "3 watt",
-                        "18 watt",
-                        "24 watt",
-                        "36 watt"
+                        "3 watts",
+                        "18 watts",
+                        "24 watts",
+                        "36 watts"
                     ],
                     "answer": 3
                 },
                 {
                     "id": 17,
                     "img": null,
-                    "question": "A resistor of 10 kilohm carries a current of 20 mA. The power dissipated in the resistor is:",
+                    "question": "A resistor of 10 kilohms carries a current of 20 milliamps. The power dissipated in the resistor is:",
                     "choices": [
-                        "2 watt",
-                        "4 watt",
-                        "20 watt",
-                        "40 watt"
+                        "2 watts",
+                        "4 watts",
+                        "20 watts",
+                        "40 watts"
                     ],
                     "answer": 2
                 },
@@ -2318,12 +2318,12 @@
                 {
                     "id": 19,
                     "img": null,
-                    "question": "A current of 10 ampere rms at a frequency of 50 Hz flows through a 100 ohm resistor. The power dissipated is:",
+                    "question": "A current of 10 amperes rms at a frequency of 50 Hz flows through a 100 ohm resistor. The power dissipated is:",
                     "choices": [
-                        "500 watt",
-                        "707 watt",
-                        "10,000 watt",
-                        "50,000 watt"
+                        "500 watts",
+                        "707 watts",
+                        "10,000 watts",
+                        "50,000 watts"
                     ],
                     "answer": 3
                 },
@@ -2345,7 +2345,7 @@
         },
         {
             "id": 8,
-            "topic": "Alternating Current",
+            "topic": "Alternating current",
             "slug": "alternating-current",
             "questionSet": [
                 {
@@ -2411,12 +2411,12 @@
                 {
                     "id": 6,
                     "img": null,
-                    "question": "The correct name for the equivalent of 'one cycle per second' is one:",
+                    "question": "The modern way of representing one thousand cycles per second is:",
                     "choices": [
-                        "henry",
-                        "volt",
-                        "hertz",
-                        "coulomb"
+                        "One kilohenry",
+                        "One kilovolt",
+                        "One kilohertz",
+                        "One kilocoulomb"
                     ],
                     "answer": 3
                 },
@@ -2461,10 +2461,10 @@
                     "img": null,
                     "question": "A sine-wave alternating current of 10 ampere peak has an rms value of:",
                     "choices": [
-                        "5 amp",
-                        "7.07 amp",
-                        "14.14 amp",
-                        "20 amp"
+                        "5 amps",
+                        "7.07 amps",
+                        "14.14 amps",
+                        "20 amps"
                     ],
                     "answer": 2
                 }
@@ -2492,9 +2492,9 @@
                 {
                     "id": 2,
                     "img": null,
-                    "question": "Filter capacitors in power supplies are sometimes connected in series to:",
+                    "question": "Filter capacitors are sometimes connected in series to:",
                     "choices": [
-                        "withstand a greater voltage than a single capacitor can withstand",
+                        "withstand a greater voltage than a single capacitor would withstand",
                         "increase the total capacity",
                         "reduce the ripple voltage further",
                         "resonate the filter circuit"
@@ -2542,10 +2542,10 @@
                     "img": null,
                     "question": "Three 15 picofarad capacitors are wired in parallel. The value of the combination is:",
                     "choices": [
-                        "45 picofarad",
-                        "18 picofarad",
-                        "12 picofarad",
-                        "5 picofarad"
+                        "45 picofarads",
+                        "18 picofarads",
+                        "12 picofarads",
+                        "5 picofarads"
                     ],
                     "answer": 1
                 },
@@ -2612,7 +2612,7 @@
                 {
                     "id": 12,
                     "img": null,
-                    "question": "Two 20 uH inductances are connected in series. The total inductance is:",
+                    "question": "Two 20 uH inductors are connected in series. The total inductance is:",
                     "choices": [
                         "10 uH",
                         "20 uH",
@@ -2624,7 +2624,7 @@
                 {
                     "id": 13,
                     "img": null,
-                    "question": "Two 20 uH inductances are connected in parallel. The total inductance is:",
+                    "question": "Two 20 uH inductors are connected in parallel. The total inductance is:",
                     "choices": [
                         "10 uH",
                         "20 uH",
@@ -2648,12 +2648,12 @@
                 {
                     "id": 15,
                     "img": null,
-                    "question": "A transformer with 100 turns on the primary winding and 10 turns on the secondary winding is connected to 230 volt AC mains. The voltage across the secondary is:",
+                    "question": "A transformer with 100 turns on the primary winding and 10 turns on the secondary winding and primary winding is connected to 230 volt AC mains. The voltage across the secondary is:",
                     "choices": [
-                        "10 volt",
-                        "23 volt",
-                        "110 volt",
-                        "2300 volt"
+                        "10 volts",
+                        "23 volts",
+                        "110 volts",
+                        "2300 volts"
                     ],
                     "answer": 2
                 },
@@ -2684,24 +2684,24 @@
                 {
                     "id": 18,
                     "img": null,
-                    "question": "An inductor and a capacitor form a resonant circuit. The capacitor value is increased by four times. The resonant frequency will:",
+                    "question": "An inductor has an inductance of 5 millihenries. The reactance of this inductor at 3.5 MHz is approximately (use 3.14 for Pi):",
                     "choices": [
-                        "increase by four times",
-                        "double",
-                        "decrease to half",
-                        "decrease to one quarter"
+                        "11 Ohms",
+                        "110 Ohms",
+                        "110 kiloohms",
+                        "1.1 Megohms"
                     ],
                     "answer": 3
                 },
                 {
                     "id": 19,
                     "img": null,
-                    "question": "An inductor and a capacitor form a resonant circuit. If the value of the inductor is decreased by a factor of four, the resonant frequency will:",
+                    "question": "An inductor and a capacitor form a resonant circuit. The capacitor has a reactance of 500 Ohms. To obtain resonance the reactance of the inductor must be:",
                     "choices": [
-                        "increase by a factor of four",
-                        "increase by a factor of two",
-                        "decrease by a factor of two",
-                        "decrease by a factor of four"
+                        "5 Ohms",
+                        "500 Ohms",
+                        "5 kiloohms",
+                        "500 kiloohms"
                     ],
                     "answer": 2
                 },
@@ -2744,7 +2744,7 @@
                     "question": "For your safety, before checking a fault in a mains operated power supply unit, first:",
                     "choices": [
                         "short the leads of the filter capacitor",
-                        "turn off the power and remove the power plug",
+                        "turn off the power and unplug the power plug",
                         "check the action of the capacitor bleeder resistance",
                         "remove and check the fuse in the power supply"
                     ],
@@ -2789,7 +2789,7 @@
                 {
                     "id": 6,
                     "img": null,
-                    "question": "The purpose of using three wires in the mains power cord and plug on amateur radio equipment is to:",
+                    "question": "The purpose of using an earth conductor in the mains power cord and plug on amateur radio equipment is to:",
                     "choices": [
                         "make it inconvenient to use",
                         "prevent the chassis from becoming live in case of an internal short to the chassis",
@@ -2829,7 +2829,7 @@
                     "choices": [
                         "brown",
                         "blue",
-                        "yellow and green",
+                        "green and yellow",
                         "white"
                     ],
                     "answer": 3
@@ -3028,7 +3028,7 @@
                     "img": null,
                     "question": "A semiconductor is described as a \"general purpose audio NPN device\". This is a:",
                     "choices": [
-                        "triode",
+                        "triode valve",
                         "silicon diode",
                         "bipolar transistor",
                         "field effect transistor"
@@ -3169,9 +3169,9 @@
                     "img": "jfet.jpg",
                     "question": "In the figure shown, 3 represents the:",
                     "choices": [
-                        "source of an n-channel junction FET",
+                        "gate of an n-channel junction FET",
                         "gate of a p-channel junction FET",
-                        "emitter of a pnp transistor",
+                        "source of a p-channel junction FET",
                         "drain of an n-channel junction FET"
                     ],
                     "answer": 4
@@ -3248,12 +3248,12 @@
                 {
                     "id": 2,
                     "img": null,
-                    "question": "A VSWR meter switched to the \"reverse\" position provides an indication of:",
+                    "question": "A SWR meter switched to the \"reverse\" position provides an indication of:",
                     "choices": [
                         "power output in watts",
-                        "relative reflected voltage",
-                        "relative forward voltage",
-                        "reflected power in dB"
+                        "relative reflected power",
+                        "relative forward power",
+                        "antenna impedance"
                     ],
                     "answer": 2
                 },
@@ -3365,31 +3365,31 @@
                 {
                     "id": 1,
                     "img": null,
-                    "question": "The input to an amplifier is 1 volt rms and the output 10 volt rms. This is an increase of:",
+                    "question": "The input to an amplifier is 1 watt and the output 10 watts. This is an increase of:",
                     "choices": [
                         "3 dB",
                         "6 dB",
                         "10 dB",
                         "20 dB"
                     ],
-                    "answer": 4
+                    "answer": 3
                 },
                 {
                     "id": 2,
                     "img": null,
-                    "question": "The input to an amplifier is 1 volt rms and output 100 volt rms. This is an increase of:",
+                    "question": "The input to an amplifier is 1 watt and output 100 watts. This is an increase of:",
                     "choices": [
                         "10 dB",
                         "20 dB",
                         "40 dB",
                         "100 dB"
                     ],
-                    "answer": 3
+                    "answer": 2
                 },
                 {
                     "id": 3,
                     "img": null,
-                    "question": "An amplifier has a gain of 40 dB. The ratio of the rms output voltage to the rms input voltage is:",
+                    "question": "An amplifier has a gain of 20 dB. The ratio of the output power to the input power is:",
                     "choices": [
                         "20",
                         "40",
@@ -3401,48 +3401,48 @@
                 {
                     "id": 4,
                     "img": null,
-                    "question": "A transmitter power amplifier has a gain of 20 dB. The ratio of the output power to the input power is:",
+                    "question": "A transmitter power amplifier has a gain of 10 dB. The ratio of the output power to the input power is:",
                     "choices": [
                         "10",
                         "20",
                         "40",
                         "100"
                     ],
-                    "answer": 4
+                    "answer": 1
                 },
                 {
                     "id": 5,
                     "img": null,
-                    "question": "An attenuator network comprises two 100 ohm resistors in series with the input applied across both resistors and the output taken from across one of them. The voltage attenuation of the network is:",
+                    "question": "The maximum power output permitted on the 900 MHz band is 14 dBW e.i.r.p (25W). If the antenna has 7 dBi of gain and there is 1 dB of loss in the feedline, how much power must the transmitter power be reduced to:",
                     "choices": [
-                        "3 dB",
-                        "6 dB",
-                        "50 dB",
-                        "100 dB"
+                        "5 Watts",
+                        "6.25 Watts",
+                        "12.5 Watts",
+                        "14 Watts"
                     ],
                     "answer": 2
                 },
                 {
                     "id": 6,
                     "img": null,
-                    "question": "An attenuator network has 10 volt rms applied to its input with 1 volt rms measured at its output. The attenuation of the network is:",
+                    "question": "An attenuator network has 10 watts applied to its input with 1 watt measured at its output. The attenuation of the network is:",
                     "choices": [
                         "6 dB",
                         "10 dB",
                         "20 dB",
                         "40 dB"
                     ],
-                    "answer": 3
+                    "answer": 2
                 },
                 {
                     "id": 7,
                     "img": null,
-                    "question": "An attenuator network has 10 volt rms applied to its input with 5 volt rms measured at its output. The attenuation of the network is:",
+                    "question": "An attenuator network has 10 watts applied to its input with 5 watts measured at its output. The attenuation of the network is:",
                     "choices": [
+                        "3 dB",
                         "6 dB",
                         "10 dB",
-                        "20 dB",
-                        "40 dB"
+                        "20 dB"
                     ],
                     "answer": 1
                 },
@@ -3461,7 +3461,7 @@
                 {
                     "id": 9,
                     "img": null,
-                    "question": "An amplifier with a gain of 20 dB has a -10 dB attenuator connected in cascade. The gain of the combination is:",
+                    "question": "An amplifier with a gain of 20 dB has a 10 dB attenuator connected in cascade. The gain of the combination is:",
                     "choices": [
                         "8 dB",
                         "10 dB",
@@ -3592,7 +3592,7 @@
                     "img": "hfsta.jpg",
                     "question": "In this block diagram, the block designated \"antenna tuner\" is not normally necessary when:",
                     "choices": [
-                        "the antenna input impedance is 50 ohms",
+                        "the antenna input impedance is the same as the output impedance of the transceiver",
                         "a half wave antenna is used, fed at one end",
                         "the antenna is very long compared to a wavelength",
                         "the antenna is very short compared to a wavelength"
@@ -3602,7 +3602,7 @@
                 {
                     "id": 10,
                     "img": "hfsta.jpg",
-                    "question": "In the block diagram shown, the connection between the \"antenna tuner\" and the \"antenna\" could be made with:",
+                    "question": "In the block diagram shown, the connection between the \"antenna tuner\" and the \"antenna\" would normally be made with:",
                     "choices": [
                         "three-wire mains power cable",
                         "heavy hook-up wire",
@@ -3719,7 +3719,7 @@
                 {
                     "id": 9,
                     "img": "ssbrx.jpg",
-                    "question": "In the block diagram of the receiver shown, most of the receiver gain is in the:",
+                    "question": "In the block diagram of the receiver shown, most of the receiver gain is normally in the:",
                     "choices": [
                         "RF amplifier",
                         "IF amplifier",
@@ -3754,25 +3754,25 @@
                 },
                 {
                     "id": 12,
-                    "img": "fmrx.jpg",
-                    "question": "In the receiver shown, when receiving a signal, the output frequency of the \"oscillator\" is:",
+                    "img": "sdrrx.jpg",
+                    "question": "In the block diagram shown DSP means:",
                     "choices": [
-                        "the same as that of the signal",
-                        "the same as that of the IF amplifier",
-                        "of constant amplitude and frequency",
-                        "passed through the following filter"
+                        "delayed stereo processing",
+                        "digital signal processing",
+                        "delta sinusoidal processing frequency",
+                        "detailed selective processing"
                     ],
-                    "answer": 3
+                    "answer": 2
                 },
                 {
                     "id": 13,
                     "img": "fmrx.jpg",
                     "question": "In the block diagram of the receiver shown, the \"limiter\":",
                     "choices": [
-                        "limits the signal to a constant amplitude",
+                        "removes amplitude variations from the signal",
                         "rejects SSB and CW signals",
-                        "limits the frequency shift of the signal",
-                        "limits the phase shift of the signal"
+                        "removes frequency variations from the signal",
+                        "removes phase variations from the signal"
                     ],
                     "answer": 1
                 },
@@ -3815,7 +3815,7 @@
                 {
                     "id": 17,
                     "img": "fmrx.jpg",
-                    "question": "In the block diagram of the receiver shown, the selectivity would be set by the:",
+                    "question": "In the block diagram of the receiver shown, the selectivity would be mainly set by the:",
                     "choices": [
                         "AF amplifier",
                         "mixer",
@@ -3838,27 +3838,27 @@
                 },
                 {
                     "id": 19,
-                    "img": "fmrx.jpg",
-                    "question": "In the block diagram of the receiver shown, an automatic gain control (AGC) circuit would be associated with the:",
+                    "img": "sdrrx.jpg",
+                    "question": "In the block diagram shown below, demodulation occurs in the:",
                     "choices": [
-                        "Speaker",
-                        "IF amplifier",
-                        "RF filter",
-                        "Oscillator"
+                        "A to D Converter",
+                        "DSP",
+                        "D to A Converter",
+                        "Audio Amplifier"
                     ],
                     "answer": 2
                 },
                 {
                     "id": 20,
-                    "img": "fmrx.jpg",
-                    "question": "In the block diagram of the receiver shown, the waveform produced by the \"oscillator\" would ideally be a:",
+                    "img": "sdrrx.jpg",
+                    "question": "In the block diagram shown below, software would be loaded or altered in the:",
                     "choices": [
-                        "square wave",
-                        "pulsed wave",
-                        "sinewave",
-                        "hybrid frequency wave"
+                        "Low or band pass filter",
+                        "RF low noise amplifier",
+                        "A to D Converter",
+                        "DSP"
                     ],
-                    "answer": 3
+                    "answer": 4
                 }
             ],
             "count": 20,
@@ -4032,7 +4032,7 @@
                     "choices": [
                         "improve the S-meter readings",
                         "improve the receiver sensitivity",
-                        "improve the reception of different types of signal",
+                        "improve the reception of different bandwidths",
                         "increase the noise received"
                     ],
                     "answer": 3
@@ -4076,14 +4076,14 @@
                 {
                     "id": 18,
                     "img": null,
-                    "question": "Selectivity in a superhet receiver is achieved primarily in the:",
+                    "question": "The highest frequency amateur band that a baseband SDR receiver with a sample rate of 150 MHz could receive is the:",
                     "choices": [
-                        "RF amplifier",
-                        "Mixer",
-                        "IF amplifier",
-                        "Audio stage"
+                        "2m band",
+                        "6m band",
+                        "10m band",
+                        "20m band"
                     ],
-                    "answer": 3
+                    "answer": 2
                 },
                 {
                     "id": 19,
@@ -4100,14 +4100,14 @@
                 {
                     "id": 20,
                     "img": null,
-                    "question": "The AGC circuit in a receiver usually controls the:",
+                    "question": "A direct conversion SDR receiver demodulates by using an in phase and a signal that is out of phase by:",
                     "choices": [
-                        "audio stage",
-                        "mixer stage",
-                        "power supply",
-                        "RF and IF stages"
+                        "45 degrees",
+                        "90 degrees",
+                        "180 degrees",
+                        "360 degrees"
                     ],
-                    "answer": 4
+                    "answer": 2
                 },
                 {
                     "id": 21,
@@ -4124,7 +4124,7 @@
                 {
                     "id": 22,
                     "img": null,
-                    "question": "A superhet receiver, with an IF at 500 kHz, is receiving a 14 MHz signal. The local oscillator frequency is:",
+                    "question": "A superhet receiver, with an IF at 500 kHz, is receiving a 14 MHz signal. The local oscillator frequency could be:",
                     "choices": [
                         "14.5 MHz",
                         "19 MHz",
@@ -4136,7 +4136,7 @@
                 {
                     "id": 23,
                     "img": null,
-                    "question": "An audio amplifier is necessary in an AM receiver because:",
+                    "question": "An audio amplifier in an AM receiver is necessary in a receiver because:",
                     "choices": [
                         "signals leaving the detector are weak",
                         "the carrier frequency must be replaced",
@@ -4148,7 +4148,7 @@
                 {
                     "id": 24,
                     "img": null,
-                    "question": "The audio output transformer in a receiver is required to:",
+                    "question": "An audio output transformer in a receiver is sometimes required to:",
                     "choices": [
                         "step up the audio gain",
                         "protect the loudspeaker from high currents",
@@ -4351,7 +4351,7 @@
                     "img": "cwtx.jpg",
                     "question": "In the transmitter block diagram shown, the \"power amplifier\":",
                     "choices": [
-                        "need not have linear characteristics",
+                        "amplifies the RF signal to a suitable level",
                         "amplifies the bandwidth of its input signal",
                         "must be adjusted during key-up conditions",
                         "should be water-cooled"
@@ -4588,8 +4588,8 @@
                     "img": null,
                     "question": "The process of modulation allows:",
                     "choices": [
-                        "information to be impressed on to a carrier",
-                        "information to be removed from a carrier",
+                        "information to be impressed on to a transmitted signal",
+                        "information to be removed from a transmitted signal",
                         "voice and Morse code to be combined",
                         "none of these"
                     ],
@@ -4619,7 +4619,7 @@
                 {
                     "id": 1,
                     "img": null,
-                    "question": "A harmonic of a signal transmitted at 3525 kHz would be expected to occur at:",
+                    "question": "One of the harmonics of a signal transmitted at 3525 kHz would be expected to occur at:",
                     "choices": [
                         "3573 kHz",
                         "7050 kHz",
@@ -4717,7 +4717,7 @@
                     "img": null,
                     "question": "An interfering signal from a transmitter has a frequency of 57 MHz. This signal could be the:",
                     "choices": [
-                        "seventh harmonic of an 80 meter transmission",
+                        "seventh harmonic of an 80 metre transmission",
                         "third harmonic of a 15 metre transmission",
                         "second harmonic of a 10 metre transmission",
                         "crystal oscillator operating on its fundamental"
@@ -4862,7 +4862,7 @@
         },
         {
             "id": 21,
-            "topic": "Power Supplies",
+            "topic": "Power supplies",
             "slug": "power-supplies",
             "questionSet": [
                 {
@@ -4871,7 +4871,7 @@
                     "question": "A mains operated DC power supply:",
                     "choices": [
                         "converts DC from the mains into AC of the same voltage",
-                        "converts energy from the mains into DC for operating electronic equipment",
+                        "converts energy from the mains into suitable voltage DC for operating electronic equipment",
                         "is a diode-capacitor device for measuring mains power",
                         "is a diode-choked device for measuring inductance power"
                     ],
@@ -4904,10 +4904,10 @@
                 {
                     "id": 4,
                     "img": null,
-                    "question": "The following could power a solid-state 10 watt VHF transceiver:",
+                    "question": "The following could power a solid-state 25 watt VHF transceiver:",
                     "choices": [
                         "a 12 volt car battery",
-                        "6 penlite cells in series",
+                        "6 AA batteries placed in series",
                         "a 12 volt, 500 mA plug-pack",
                         "a 6 volt 10 Amp-hour Gel cell."
                     ],
@@ -4981,7 +4981,7 @@
                         "they are tuned to operate at 50 Hz",
                         "they have very low losses compared to other types",
                         "they radiate less RF noise than other types",
-                        "they can be obtained in larger values than other types"
+                        "they can be obtained in large values with modest package size and with low internal resistance"
                     ],
                     "answer": 4
                 }
@@ -5057,12 +5057,12 @@
                 {
                     "id": 6,
                     "img": "regps.jpg",
-                    "question": "In the block marked regulator in the diagram below, a reversed diode may be present across the regulator.  Its job is to",
+                    "question": "In the block marked regulator below, a diode may be placed reverse across the regulator. Its job is to:",
                     "choices": [
                         "Block negative voltages from appearing at the output",
                         "Blow a fuse if high voltages occur at the output",
                         "Blow a fuse if negative currents occur at the output",
-                        "Bypass the regulator for higher voltage at its output compared to its input"
+                        "Bypass the regulator if higher voltages occur on the output of the regulator compared with the input"
                     ],
                     "answer": 4
                 },
@@ -5110,7 +5110,7 @@
                         "suppress voltage spikes across the transformer secondary winding",
                         "work as a surge multiplier to speed up regulation",
                         "amplify output voltage errors to assist regulation",
-                        "allow for a higher current to be supplied than the regulator would otherwise allow"
+                        "allow for a higher current to be supplied than the PSU would otherwise allow"
                     ],
                     "answer": 4
                 }
@@ -5152,10 +5152,10 @@
                     "img": null,
                     "question": "The accepted way to call \"CQ\" with a SSB transceiver is:",
                     "choices": [
-                        "\"CQ  CQ  CQ this is   ZL1XXX   ZL1XXX   ZL1XXX\"",
-                        "\"This is ZL1XXX calling CQ  CQ  CQ\"",
-                        "\"CQ to anyone, CQ to anyone, I am ZL1XXX\"",
-                        "\"CQ  CQ  CQ  CQ  CQ this is New Zealand\""
+                        "\"CQ CQ CQ this is ZL3QL ZL3QL ZL3QL\"",
+                        "\"This is ZL3QL calling CQ CQ CQ\"",
+                        "\"CQ to anyone, CQ to anyone, I am ZL3QL\"",
+                        "\"CQ CQ CQ CQ CQ this is New Zealand\""
                     ],
                     "answer": 1
                 },
@@ -5186,12 +5186,12 @@
                 {
                     "id": 6,
                     "img": null,
-                    "question": "The accepted way to announce that you are listening to a VHF repeater is:",
+                    "question": "The accepted way to announce that you are listening to the 6675 VHF repeater is:",
                     "choices": [
-                        "\"hello 6695, this is ZL2ZZZ listening\"",
-                        "\"calling 6695, 6695, 6695 from ZL2ZZZ\"",
-                        "\"6695 from ZL2ZZZ\"",
-                        "\"ZL2ZZZ listening on 6695\""
+                        "\"hello 6675, this is ZL2ZZZ listening\"",
+                        "\"calling 6675, 6675, 6675 from ZL2ZZZ\"",
+                        "\"6675 from ZL2ZZZ\"",
+                        "\"ZL2ZZZ listening on 6675\""
                     ],
                     "answer": 4
                 },
@@ -5283,7 +5283,7 @@
                     "choices": [
                         "unauthorised entry has resulted in station equipment disappearing",
                         "temporary emergency operating",
-                        "key-down changes the station to transmit, key-up to receive",
+                        "to allow reception of signals between transmitted morse elements",
                         "the other station's keying is erratic"
                     ],
                     "answer": 3
@@ -5498,7 +5498,7 @@
         },
         {
             "id": 25,
-            "topic": "Q Signals",
+            "topic": "Q signals",
             "slug": "q-signals",
             "questionSet": [
                 {
@@ -5627,7 +5627,7 @@
         },
         {
             "id": 26,
-            "topic": "Transmission Lines",
+            "topic": "Transmission lines",
             "slug": "transmission-lines",
             "questionSet": [
                 {
@@ -5657,12 +5657,12 @@
                 {
                     "id": 3,
                     "img": null,
-                    "question": "The characteristic impedance of a 20 metre length of transmission line is 52 ohm. If 10 metres is cut off, the impedance will be:",
+                    "question": "The characteristic impedance of a 20 metre length of transmission line is 52 ohms. If 10 metres is cut off, the impedance will be:",
                     "choices": [
-                        "13 ohm",
-                        "26 ohm",
-                        "39 ohm",
-                        "52 ohm"
+                        "13 ohms",
+                        "26 ohms",
+                        "39 ohms",
+                        "52 ohms"
                     ],
                     "answer": 4
                 },
@@ -5683,10 +5683,10 @@
                     "img": null,
                     "question": "The designed output impedance of the antenna socket of most modern transmitters is nominally:",
                     "choices": [
-                        "25 ohm",
-                        "50 ohm",
-                        "75 ohm",
-                        "100 ohm"
+                        "25 ohms",
+                        "50 ohms",
+                        "75 ohms",
+                        "100 ohms"
                     ],
                     "answer": 2
                 },
@@ -5792,8 +5792,8 @@
                     "question": "A quarter-wave length of 50-ohm coaxial line is shorted at one end. The impedance seen at the other end of the line is:",
                     "choices": [
                         "zero",
-                        "5 ohm",
-                        "150 ohm",
+                        "5 ohms",
+                        "150 ohms",
                         "infinite"
                     ],
                     "answer": 4
@@ -5813,7 +5813,7 @@
                 {
                     "id": 16,
                     "img": null,
-                    "question": "An instrument to check whether RF power in the transmission line is transferred to the antenna is:",
+                    "question": "An instrument to check how much RF power in the transmission line is being transferred to the antenna is:",
                     "choices": [
                         "a standing wave ratio meter",
                         "an antenna tuner",
@@ -6029,7 +6029,7 @@
                     "question": "An antenna which transmits equally well in all compass directions is a:",
                     "choices": [
                         "dipole with a reflector only",
-                        "quarterwave grounded vertical",
+                        "quarterwave vertical with a ground plane",
                         "dipole with director only",
                         "half-wave horizontal dipole"
                     ],
@@ -6269,7 +6269,7 @@
                     "question": "An antenna type commonly used on HF is the:",
                     "choices": [
                         "parabolic dish",
-                        "cubical quad",
+                        "delta loop",
                         "13-element Yagi",
                         "helical Yagi"
                     ],
@@ -6326,7 +6326,7 @@
                 {
                     "id": 38,
                     "img": null,
-                    "question": "The main reason why many VHF base and mobile antennas in amateur use are 5\/8 of a wavelength long is that:",
+                    "question": "The main reason why many VHF base and mobile antennas in amateur use are 5/8 of a wavelength long is that:",
                     "choices": [
                         "it is easy to match the antenna to the transmitter",
                         "it is a convenient length on VHF",
@@ -6479,7 +6479,7 @@
                 {
                     "id": 10,
                     "img": null,
-                    "question": "Because of high absorption levels at frequencies below 4 MHz during daylight hours, only high angle signals are normally reflected back by this layer:",
+                    "question": "During the day frequencies below 4 MHz are often absorbed by the absorption layer unless there is a high angle of radiation, in which case the signals may pass through the absorption layer to be reflected. Which ionospheric layer reflects these waves?:",
                     "choices": [
                         "C",
                         "D",
@@ -6539,7 +6539,7 @@
                 {
                     "id": 15,
                     "img": null,
-                    "question": "The distance from the far end of the ground wave to the nearest point where the sky wave returns to the earth is called the:",
+                    "question": "The region from the far end of the ground wave to the nearest point where the sky wave returns to the earth is called the:",
                     "choices": [
                         "skip distance",
                         "radiation distance",
@@ -6647,7 +6647,7 @@
                 {
                     "id": 24,
                     "img": null,
-                    "question": "Propagation on 80 metres during the summer daylight hours is limited to relatively short distances because of:",
+                    "question": "Propagation on 80 metres during the summer daylight hours is limited to relatively short distances because of",
                     "choices": [
                         "high absorption in the D layer",
                         "the disappearance of the E layer",
@@ -6974,7 +6974,7 @@
         },
         {
             "id": 29,
-            "topic": "Interference and Filtering",
+            "topic": "Interference and filtering",
             "slug": "interference-and-filtering",
             "questionSet": [
                 {
@@ -6992,14 +6992,14 @@
                 {
                     "id": 2,
                     "img": null,
-                    "question": "On an amateur receiver, unwanted signals are found at every 15.625 kHz. This is probably due to:",
+                    "question": "A transmission with an audible hum superimposed on the voice signal could be solved by the transmitter:",
                     "choices": [
-                        "a low-frequency government station",
-                        "a remote radar station",
-                        "radiation from a nearby TV line oscillator",
-                        "none of these"
+                        "using a suitably rated regulated DC power supply",
+                        "using a noise blanker",
+                        "reducing the transmitter modulation",
+                        "increasing the audio compression level"
                     ],
-                    "answer": 3
+                    "answer": 1
                 },
                 {
                     "id": 3,
@@ -7052,14 +7052,14 @@
                 {
                     "id": 7,
                     "img": null,
-                    "question": "A neighbour's stereo system is suffering RF break-through. One possible cure is to:",
+                    "question": "An amateur operator has received complaints that their signal is spreading wider across the band than other similar transmitted signals. One possible cause could be:",
                     "choices": [
-                        "put a ferrite bead on the transmitter output lead",
-                        "put a capacitor across the transmitter output",
-                        "use open-wire feeders to the antenna",
-                        "use screened wire for the loudspeaker leads"
+                        "antenna impedance mismatch",
+                        "over driven audio stages",
+                        "under driven RF amplifier stage",
+                        "enhanced propagation conditions"
                     ],
-                    "answer": 4
+                    "answer": 2
                 },
                 {
                     "id": 8,
@@ -7076,7 +7076,7 @@
                 {
                     "id": 9,
                     "img": null,
-                    "question": "When someone in the neighbourhood complains of TVI it is wise to:",
+                    "question": "When someone in the neighbourhood complains of interference it is wise to:",
                     "choices": [
                         "deny all responsibility",
                         "immediately blame the other equipment",
@@ -7090,7 +7090,7 @@
                     "img": null,
                     "question": "Cross-modulation is usually caused by:",
                     "choices": [
-                        "rectification of strong signals in overloaded stages",
+                        "rectification of strong signals",
                         "key-clicks generated at the transmitter",
                         "improper filtering in the transmitter",
                         "lack of receiver sensitivity and selectivity"
@@ -7148,12 +7148,12 @@
                 {
                     "id": 15,
                     "img": null,
-                    "question": "To reduce energy from an HF transmitter getting into a television receiver, the following could be placed in the TV antenna lead as close to the TV as possible:",
+                    "question": "A common source of RF feedback interference is:",
                     "choices": [
-                        "active filter",
-                        "low-pass filter",
-                        "high-pass filter",
-                        "band reject filter"
+                        "RF returning on the feedline from excessive modulation",
+                        "RF returning on the feedline from an high gain antenna system",
+                        "RF returning on the feedline incorrectly connected to an antenna",
+                        "RF returning on the feedline from low voltage supplying the power amplifier"
                     ],
                     "answer": 3
                 },
@@ -7213,7 +7213,7 @@
                         "permit higher frequency signals to pass to the antenna",
                         "ensure an SWR not exceeding 2:1",
                         "reduce the power output back to the legal maximum",
-                        "permit lower frequency signals to pass to the antenna"
+                        "prevent higher frequencies being passed to the antenna"
                     ],
                     "answer": 4
                 },
@@ -7232,9 +7232,9 @@
                 {
                     "id": 22,
                     "img": null,
-                    "question": "Television interference caused by harmonics radiated from an amateur transmitter could be eliminated by fitting:",
+                    "question": "Interference caused by harmonics radiated from an amateur transmitter could be eliminated by fitting:",
                     "choices": [
-                        "a low-pass filter in the TV receiver antenna input",
+                        "a low-pass filter in the receiver antenna input",
                         "a high-pass filter in the transmitter output",
                         "a low-pass filter in the transmitter output",
                         "a band-pass filter to the speech amplifier"
@@ -7244,26 +7244,26 @@
                 {
                     "id": 23,
                     "img": null,
-                    "question": "A high-pass filter can be used to:",
+                    "question": "The units of field strength when measuring the electric field of an interfering signal is:",
                     "choices": [
-                        "prevent interference to a telephone",
-                        "prevent overmodulation in a transmitter",
-                        "prevent interference to a TV receiver",
-                        "pass a band of speech frequencies in a modulator"
+                        "Volts (V)",
+                        "Amps (A)",
+                        "Volts per metre (V/m)",
+                        "Amps per metre (A/m)"
                     ],
                     "answer": 3
                 },
                 {
                     "id": 24,
                     "img": null,
-                    "question": "A high-pass RF filter would normally be fitted:",
+                    "question": "The following method is specifically used to reduce common mode interference on an antenna feedline:",
                     "choices": [
-                        "between transmitter output and feedline",
-                        "at the antenna terminals of a TV receiver",
-                        "at the Morse key or keying relay in a transmitter",
-                        "between microphone and speech amplifier"
+                        "using a feedline with less loss",
+                        "lowering the transmitted baud rate",
+                        "fitting a toroid or choke on the antenna feedline",
+                        "using a low pass filter"
                     ],
-                    "answer": 2
+                    "answer": 3
                 },
                 {
                     "id": 25,
@@ -7351,7 +7351,7 @@
                     "img": "digista.jpg",
                     "question": "In the block diagram shown, the block designated \"modem\" is a:",
                     "choices": [
-                        "modulator\/demodulator",
+                        "modulator/demodulator",
                         "modulation emphasis unit",
                         "Morse demodulator",
                         "MOSFET de-emphasis unit"
@@ -7390,7 +7390,7 @@
                         "DSBSC, PACTOR, NBFM",
                         "AGC, FSK, Clover",
                         "PSK31, AFC, PSSN",
-                        "AMTOR, PACTOR, PSK31"
+                        "FT8, RTTY, PSK31"
                     ],
                     "answer": 4
                 },
@@ -7409,12 +7409,12 @@
                 {
                     "id": 6,
                     "img": null,
-                    "question": "In digital communications, BPSK stands for:",
+                    "question": "The number 219 is represented in binary as",
                     "choices": [
-                        "binary phase shift keying",
-                        "baseband polarity shift keying",
-                        "band pass selective keying",
-                        "burst pulse signal keying"
+                        "11011011",
+                        "11100111",
+                        "10101001",
+                        "11010011"
                     ],
                     "answer": 1
                 },
@@ -7433,19 +7433,19 @@
                 {
                     "id": 8,
                     "img": null,
-                    "question": "The letters BBS stand for:",
+                    "question": "The following mode utilises forward error correction:",
                     "choices": [
-                        "binary baud system",
-                        "bulletin board system",
-                        "basic binary selector",
-                        "broadcast band stopper"
+                        "RTTY",
+                        "FT8",
+                        "PSK31",
+                        "Hellschreiber"
                     ],
                     "answer": 2
                 },
                 {
                     "id": 9,
                     "img": null,
-                    "question": "APRS is an adaptation of packet radio.  APRS stands for:",
+                    "question": "APRS is an adaption of packet radio. APRS Stands for:",
                     "choices": [
                         "Automatic Packet Reporting System",
                         "Amateur Position Reporting System",
@@ -7457,7 +7457,7 @@
                 {
                     "id": 10,
                     "img": null,
-                    "question": "The following communication mode is generally used for connecting to a VHF packet radio bulletin board:",
+                    "question": "The following communication mode is generally used for transmitting APRS signals on VHF or UHF bands:",
                     "choices": [
                         "SSB",
                         "AM",
