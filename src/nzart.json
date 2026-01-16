@@ -4032,7 +4032,7 @@
                     "choices": [
                         "improve the S-meter readings",
                         "improve the receiver sensitivity",
-                        "improve the reception of different bandwidths",
+                        "improve the reception of different modulation types",
                         "increase the noise received"
                     ],
                     "answer": 3
@@ -5105,12 +5105,12 @@
                 {
                     "id": 10,
                     "img": null,
-                    "question": "The purpose of a series pass transistor in a regulated power supply is to:",
+                    "question": "The purpose of adding a series pass transistor to a regulated power supply is to:",
                     "choices": [
                         "suppress voltage spikes across the transformer secondary winding",
                         "work as a surge multiplier to speed up regulation",
                         "amplify output voltage errors to assist regulation",
-                        "allow for a higher current to be supplied than the PSU would otherwise allow"
+                        "allow for a higher current to be supplied than a Zener or 3 terminal regulator would otherwise allow"
                     ],
                     "answer": 4
                 }
